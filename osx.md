@@ -48,6 +48,13 @@ launchctl remove com.symantec.uiagent.application.NFM
 ```
 
 
+## Finder
+
+### Permanent delete one or more files
+Option + Cmd + Delete
+
+### Empty trash
+Shift + Cmd + Delete
 
 
 
