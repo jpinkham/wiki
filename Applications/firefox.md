@@ -4,15 +4,66 @@ So you can't be fooled by phishing sites that are using non-ASCII characters in 
 
 Resources:
 
-[https://www.xudongz.com/blog/2017/idn-phishing/]()
+* [https://www.xudongz.com/blog/2017/idn-phishing/]()
 
-[https://info.phishlabs.com/blog/threat-announcement-phishing-sites-detected-on-emoji-domains]()
+* [Threat Announcement: Phishing Sites Detected on Emoji Domains](https://info.phishlabs.com/blog/threat-announcement-phishing-sites-detected-on-emoji-domains)
 
-[http://kb.mozillazine.org/Network.IDN_show_punycode]()
+* [Mozilla KB: network.IDN_show_punycode](http://kb.mozillazine.org/Network.IDN_show_punycode)
 	
 
 --
 	
 	security.webauth.u2f = true
 To enable support for U2F hardware keys (like YubiKeys).
+
+--
 	
+### Disable these "features" in Firefox that are invading your privacy
+
+```
+#! SET THESE TO FALSE, UNLESS SPECIFIED OTHERWISE
+app.normandy.enabled
+app.shield.optoutstudies.enabled
+browser.library.activity-stream.enabled
+browser.newtabpage.activity-stream.feeds.telemetry
+browser.newtabpage.activity-stream.telemetry
+browser.ping-centre.telemetry
+browser.send_pings
+browser.urlbar.autocomplete.enabled
+datareporting.policy.dataSubmissionEnabled
+datareporting.healthreport.uploadEnabled 
+dom.event.contextmenu.enabled 
+geo.enabled
+media.peerconnection.enabled
+network.dns.disablePrefetch = true
+privacy.resistFingerprinting
+toolkit.telemetry.enabled
+```
+	
+--
+	
+	
+### Remove several browser protections to make firefox vulnerable for appsec testing
+
+```
+#! SET THESE TO FALSE, UNLESS SPECIFIED OTHERWISE
+browser.safebrowsing.blockedURIs.enabled
+browser.safebrowsing.downloads.enabled
+browser.safebrowsing.downloads.remote.enabled
+browser.safebrowsing.malware.enabled
+browser.safebrowsing.phishing.enabled
+browser.urlbar.filter.javascript
+network.captive-portal-service.enabled
+plugins.flashBlock.enabled
+privacy.trackingprotection.annotate_channels
+privacy.trackingprotection.pbmode.enabled
+security.tls.version.min = 0
+security.mixed_content.block_active_content
+security.ssl.enable_ocsp_stapling
+security.ssl.errorReporting.enabled
+```
+Resources:
+
+* https://www.sans.org/webcasts/web-hacking-burp-suite-deep-dive-burp-suites-functionality-pen-testers-108860
+* https://aaronhorler.com/articles/firefox-privacy.html
+
