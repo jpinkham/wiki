@@ -1,5 +1,9 @@
-##Config settings to enable/customize
-	network.IDN_show_punycode = true
+Config settings to enable/customize
+===================================
+
+```
+network.IDN_show_punycode = true
+```
 So you can't be fooled by phishing sites that are using non-ASCII characters in order to -look- like they are a legitimate site.
 
 Resources:
@@ -11,12 +15,12 @@ Resources:
 * [Mozilla KB: network.IDN_show_punycode](http://kb.mozillazine.org/Network.IDN_show_punycode)
 	
 
---
+---
 	
 	security.webauth.u2f = true
 To enable support for U2F hardware keys (like YubiKeys).
 
---
+---
 	
 ### Disable these "features" in Firefox that are invading your privacy
 
@@ -40,7 +44,7 @@ privacy.resistFingerprinting
 toolkit.telemetry.enabled
 ```
 	
---
+---
 	
 	
 ### Remove several browser protections to make firefox vulnerable for appsec testing
