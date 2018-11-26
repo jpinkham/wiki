@@ -13,3 +13,8 @@ lsb_release -a
 uname -a
 
 ```
+
+## Show the total size of the current directory (and all its subdirs)
+```
+du --total --summarize --human-readable
+```
