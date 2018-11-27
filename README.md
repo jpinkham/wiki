@@ -2,7 +2,7 @@
 Collecting all the scattered, random tech data sticky notes into a single knowledgebase for myself.<br>
 If anyone else finds this useful, even better :-D.
 
-/
+/<br>
 |----[Applications](Applications)<br>
 |---------[Firefox](Applications/firefox.md)<br>
 |-- [cmd-line git](git.md)<br>
