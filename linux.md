@@ -18,3 +18,5 @@ uname -a
 ```
 du --total --summarize --human-readable
 ```
+NOTE: This may not work in BSD/OSX. This is equivalent and should work everywhere
+```du -c -s -h```

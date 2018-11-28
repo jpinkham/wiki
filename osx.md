@@ -1,5 +1,12 @@
 # Command line
 
+##Show the total size of the current directory (and all its subdirs)
+```du -c -h -s```
+-c = grand total for all files
+-h = human-readable (KB, MB, GB, etc)
+-s = summarize = display only a total
+
+
 ## Mounting an NTFS drive as read-write
 ```sudo mount -v -t ntfs -o rw,auto,nobrowse /dev/disk3s1 /Volumes/Passport/```
 
