@@ -1,10 +1,10 @@
 # Command line
 
 ## Show the total size of the current directory (and all its subdirs)
-```du -c -h -s```
--c = grand total for all files
--h = human-readable (KB, MB, GB, etc)
--s = summarize = display only a total
+```du -c -h -s``` <br>
+-c = grand total for all files <br>
+-h = human-readable (KB, MB, GB, etc) <br>
+-s = summarize = display only a total <br>
 
 
 ## Mounting an NTFS drive as read-write
