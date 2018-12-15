@@ -48,6 +48,48 @@ launchctl remove com.symantec.uiagent.application.NFM
 
 ---
 
+## Command line tools I should research further
+
+### ioreg - displays the I/O Kit registry.  It shows the hierarchical registry structure as an
+     inverted tree.
+
+
+
+
+### spctl - manages the security assessment policy subsystem.  
+
+Mentioned in https://www.silabs.com/community/interface/knowledge-base.entry.html/2018/03/30/usb_to_uart_bridgev-Dnef
+```
+You can checked whether user consent is enabled in general the following command:
+
+spctl kext-consent status 
+
+The result should be 
+
+Kernel Extension User Consent: ENABLED
+
+This can be done by a normal user and does not require sudo or booting in recovery mode. Note to make modifications, you have to boot into recovery mode, but the check can be done from a normally booted machine.
+```
+
+### kextstat -- display status of loaded kernel extensions (kexts)
+```
+You can checked to see if the kext has been loaded using the command:
+
+kextstat | grep silabs
+
+This is an example showing the CP210xVCPDriver loaded:
+
+  188    0 0xffffff7f83b8e000 0x9000     0x9000     com.silabs.driver.CP210xVCPDriver (5.0.5) AB2A33AD-B60D-35F9-A3F5-084252A66E50 <145 22 4 3>
+
+Another useful command is
+
+kextfind /Library/Extensions -loaded
+
+This can show you the current user-approved extensions in case you want to look for potential conflicts.
+```
+
+
+---
 ## Finder
 
 ### Permanent delete one or more files
