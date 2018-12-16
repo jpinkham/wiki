@@ -1,13 +1,17 @@
-# Command line
+Command line
+============
 
-## Show the total size of the current directory (and all its subdirs)
+Disk-related
+------------
+
+### Show the total size of the current directory (and all its subdirs)
 ```du -c -h -s``` <br>
 -c = grand total for all files <br>
 -h = human-readable (KB, MB, GB, etc) <br>
 -s = summarize = display only a total <br>
 
 
-## Mounting an NTFS drive as read-write
+### Mounting an NTFS drive as read-write
 ```sudo mount -v -t ntfs -o rw,auto,nobrowse /dev/disk3s1 /Volumes/Passport/```
 
 
@@ -23,8 +27,24 @@ diskutil zeroDisk /dev/disk4
 
 ---
 
+Misc
+-----
 
-## Homebrew - installer for all the good stuff
+### Location of iCloud Drive: 
+```~/Library/Mobile\ Documents/com~apple~CloudDocs/```
+Use this for command line access to pull/push files like any other directory.  OSX will take care of getting it uploaded to iCloud.
+
+
+### Creating app-specific passwords when you have 2FA enabled
+Ex usage: accessing an iCloud calendar with Amazon Alexa <br>
+Log on to https://appleid.apple.com/.  Navigate to Security --> App-specific Passwords --> Generate <br>
+You may want to take a screenshot of the password that gets generated because you will never be able to see it again
+
+---
+
+Homebrew - installer for all the good stuff
+--------
+
 * Install packages: ```brew install <package>```
 * Search for specific packages: ```brew search [--desc] <search term or regex>```<br>
         Use ```--desc``` to search package description (and include in output), not just package title
@@ -36,11 +56,11 @@ More brew documentation available at https://docs.brew.sh
 
 ---
 
-## launchctl - Launch Control
+### launchctl - Launch Control
 Start, stop, enable, disable, unload from memory
 
 
-### Turn off Symantec virus scanner until next reboot
+#### Turn off Symantec virus scanner until next reboot
 ```
 launchctl stop com.symantec.uiagent.application.NFM
 launchctl remove com.symantec.uiagent.application.NFM
@@ -48,17 +68,13 @@ launchctl remove com.symantec.uiagent.application.NFM
 
 ---
 
-## Command line tools I should research further
+Command line tools I should research further
+------------------------------------
 
-### ioreg - displays the I/O Kit registry.  It shows the hierarchical registry structure as an
-     inverted tree.
-
-
-
-
+### ioreg - displays the I/O Kit registry.  It shows the hierarchical registry structure as an inverted tree.
 ### spctl - manages the security assessment policy subsystem.  
+Whatever that means.
 
-Mentioned in https://www.silabs.com/community/interface/knowledge-base.entry.html/2018/03/30/usb_to_uart_bridgev-Dnef
 ```
 You can checked whether user consent is enabled in general the following command:
 
@@ -88,9 +104,16 @@ kextfind /Library/Extensions -loaded
 This can show you the current user-approved extensions in case you want to look for potential conflicts.
 ```
 
+Reference: Mentioned in https://www.silabs.com/community/interface/knowledge-base.entry.html/2018/03/30/usb_to_uart_bridgev-Dnef
+
 
 ---
-## Finder
+
+OS X UI
+=======
+
+Finder
+------
 
 ### Permanent delete one or more files
 Option + Cmd + Delete
@@ -101,9 +124,10 @@ Shift + Cmd + Delete
 
 ---
 
-## System Preferences
+System Preferences
+------------------
 
-### Fix scrolling so it's correct and apparently unnatural
+### Fix scrolling so it's correct (to me) and apparently unnatural (to Apple fans)
 Trackpad --> Scroll & Zoom --> UNcheck "Scroll direction: Natural"
 
 ### Enable SSH server
