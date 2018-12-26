@@ -1,3 +1,13 @@
+Plugins to protect your privacy/increase security
+=================================================
+|Plugin Name|URL|Description|
+|-----------|---|-----------|
+|Multi-Account Containers|https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/|Sep cookie jars so Amazon, FB, Google, etc can't follow you all around the internet. Also allows multiple accounts logged into same service (ex: gmail).|
+|Auto-delete cookies|https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/|Delete cookies for current site when you close a tab or navigate to new site/domain.|
+|DuckDuckGo Privacy Essentials|https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/|Blocks most trackers. Grades security of pages you visit.|
+|HTTPS Everywhere|https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/|Force use of HTTPS for all URLs on any site you visit, it site supports HTTPS.|
+
+
 Config settings to enable/customize
 ===================================
 
@@ -47,7 +57,7 @@ toolkit.telemetry.enabled
 ---
 	
 	
-### Remove several browser protections to make firefox vulnerable for appsec testing
+### Specifically for application security testing: remove several browser protections to make your browser vulnerable
 
 ```
 #! SET THESE TO FALSE, UNLESS SPECIFIED OTHERWISE
