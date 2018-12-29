@@ -7,6 +7,12 @@ cat /proc/version
 lsb_release -a
 ```
 
+### Ubuntu (any Debian?) -- check for non-LTS OS upgrades
+```sudo vi /etc/update-manager/release-upgrades```
+Make sure the "Prompt" value is set to "normal" and not "lts"
+
+
+
 ### Determine kernel version
 ```
 uname -a
