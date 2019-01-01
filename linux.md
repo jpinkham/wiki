@@ -11,6 +11,11 @@ lsb_release -a
 ```sudo vi /etc/update-manager/release-upgrades```
 Make sure the "Prompt" value is set to "normal" and not "lts"
 
+### Determine files within/installed by a package
+```
+apt-file list <package>   #NOTE: This works on any pkg, not just installed ones
+dpkg -L <package>
+```
 
 
 ### Determine kernel version
