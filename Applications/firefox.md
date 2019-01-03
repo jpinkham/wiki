@@ -1,5 +1,5 @@
 Plugins to protect your privacy/increase security
-=================================================
+-------------------------------------------------
 |Plugin Name|URL|Description|
 |-----------|---|-----------|
 |Multi-Account Containers|https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/|Sep cookie jars so Amazon, FB, Google, etc can't follow you all around the internet. Also allows multiple accounts logged into same service (ex: gmail).|
@@ -9,7 +9,7 @@ Plugins to protect your privacy/increase security
 
 
 Config settings to enable/customize
-===================================
+-----------------------------------
 
 ```
 network.IDN_show_punycode = true
@@ -18,7 +18,7 @@ So you can't be fooled by phishing sites that are using non-ASCII characters in 
 
 Resources:
 
-* [https://www.xudongz.com/blog/2017/idn-phishing/]()
+* [Phishing with Unicode Domains](https://www.xudongz.com/blog/2017/idn-phishing/)
 
 * [Threat Announcement: Phishing Sites Detected on Emoji Domains](https://info.phishlabs.com/blog/threat-announcement-phishing-sites-detected-on-emoji-domains)
 
@@ -26,9 +26,10 @@ Resources:
 	
 
 ---
-	
-	security.webauth.u2f = true
-To enable support for U2F hardware keys (like YubiKeys).
+
+```security.webauth.u2f = true```
+
+To enable support for U2F hardware key authentication (Ex: Yubikey)
 
 ---
 	
