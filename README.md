@@ -20,8 +20,7 @@ If anyone else finds this useful, even better :-D.
 |---------[Metasploit msfconsole man page](Sec/metasploit_msfconsole_commands.md)<br>
 |---------[Recon](Sec/recon.md)<br>
 |--[M$ Windows](windows)<br>
-|---------[Adding startup apps to Win10](windows/add_startup_apps.md)<br>
-|---------[Ultimate List of Windows keyboard shortcuts to use with Win key](windows/Ultimate%20list%20of%20windows%20keyboard%20shortcuts%20to%20use%20with%20the%20Win%20key.pdf)<br>
+|---------[Shortcut to adding startup apps](windows/add_startup_apps.md)<br>
 
 
 
