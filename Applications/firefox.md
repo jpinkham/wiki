@@ -40,6 +40,7 @@ Resources:
 To enable support for U2F hardware key authentication (Ex: Yubikey)
 
 ---
+
 	
 ### Disable these "features" in Firefox that are invading your privacy
 
@@ -64,7 +65,21 @@ toolkit.telemetry.enabled
 ```
 	
 ---
-	
+### Config via UI (Preferences)
+* General --> Startup --> UNcheck "Restore previous session", if using Tab Session Manager extension.
+* General --> Language & Appearance --> Fonts & Colors --> Advanced --> Minimum Font Size, set to 12pt or higher otherwise some text could be far too small on a high-res display.
+* General --> Browsing --> UNcheck "Recommend extensions as you browse"
+* Home --> New Windows & Tabs --> Set "Blank page" for both values
+* Home --> Firefox Home Content --> UNcheck everything
+* Search --> Default search engine --> UNcheck "Provide search suggestions"
+* Privacy & Security --> Content blocking --> UNcheck everything, if using any extensions that block content (makes for easier troubleshooting of broken pages)
+* Privacy & Security --> Logins & Passwords --> UNcheck "Ask to save logins and passwords for websites", if using a password manager extension
+* Privacy & Security --> Forms & Autofill --> UNcheck "Autofill addresses", if using an extension like LastPass to fill forms
+* Privacy & Security --> Address Bar --> UNcheck everything
+* Privacy & Security --> Firefox Data Collection & Use --> UNcheck everything
+* Privacy & Security --> Deceptive Content and Dangerous Software Protection --> UNcheck everything because this will just get in your way and invades your privacy
+
+---	
 	
 ### Specifically for application security testing: remove several browser protections to make your browser vulnerable
 
