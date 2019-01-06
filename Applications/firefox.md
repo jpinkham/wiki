@@ -1,11 +1,22 @@
-Plugins to protect your privacy/increase security
--------------------------------------------------
-|Plugin Name|URL|Description|
-|-----------|---|-----------|
-|Multi-Account Containers|https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/|Sep cookie jars so Amazon, FB, Google, etc can't follow you all around the internet. Also allows multiple accounts logged into same service (ex: gmail).|
-|Auto-delete cookies|https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/|Delete cookies for current site when you close a tab or navigate to new site/domain.|
-|DuckDuckGo Privacy Essentials|https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/|Blocks most trackers. Grades security of pages you visit.|
-|HTTPS Everywhere|https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/|Force use of HTTPS for all URLs on any site you visit, it site supports HTTPS.|
+Plugins
+-------
+
+
+
+Plugins to add functionality
+-----------------------------
+|Plugin Name|URL|Description| Why |
+|-----------|---|-----------|-----|
+| Diigo | https://addons.mozilla.org/en-US/firefox/addon/diigo-web-collector/ | Bookmarks, annotations, oraganize research | Research |
+| Auto reload Tab | https://addons.mozilla.org/en-US/firefox/addon/auto-reload-tab/ | Enable on a per-tab basis, each with custom time limit. |
+| Evernote page clipper | https://addons.mozilla.org/en-US/firefox/addon/evernote-web-clipper/ | PDFs are broken! But it does clip webpages and can strip out all the ads and sidenav and whatnot | Research |
+| Cookie Manager | xxxxx | Supports containers | Privacy, Security |
+| I Don't Care About Cookies | xxxxx | Auto-clicks those annoying "HEY WE USE COOKIES! READ ALL ABOUT IT!" popups | Remove annoyance |
+| Multi-Account Containers | https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/ | Sep cookie jars so Amazon, FB, Google, etc can't follow you all around the internet. Also allows multiple accounts logged into same service (ex: gmail). | Privacy, Security |
+| Auto-delete cookies | https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ | Delete cookies for a site, and all its trackers, when you close a tab or navigate to new site/domain. | Privacy |
+| DuckDuckGo Privacy Essentials | https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/ | Forces HTTPS, blocks most trackers. | Privacy, Security |
+| LastPass Password Manager | https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/ | Password storage, form fills, and more | Security |
+
 
 
 Config settings to enable/customize
