@@ -18,6 +18,7 @@ Extensions aka Plugins
 
 Config settings to enable/customize
 -----------------------------------
+Resource: http://kb.mozillazine.org/About:config_entries
 
 ```
 network.IDN_show_punycode = true
@@ -56,12 +57,14 @@ browser.send_pings
 browser.urlbar.autocomplete.enabled
 datareporting.policy.dataSubmissionEnabled
 datareporting.healthreport.uploadEnabled 
-dom.event.contextmenu.enabled 
 geo.enabled
 media.peerconnection.enabled
+network.dns.disableIPv6 = true
 network.dns.disablePrefetch = true
 privacy.resistFingerprinting
 toolkit.telemetry.enabled
+toolkit.telemetry.shutdownPingSender.enabled
+
 ```
 	
 ---
