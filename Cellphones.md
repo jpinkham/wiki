@@ -1,3 +1,7 @@
+### Any?
+Status of Call Forwarding options -- verified on AT&T iPhone
+```*#43#```
+
 show IMEI: 
 ```*#06#```
 
@@ -9,3 +13,7 @@ Show data usage:
 
 Current account balance
 ```*225#```
+
+
+
+
