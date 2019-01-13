@@ -31,3 +31,9 @@ NOTE: This may not work in BSD/OSX. This is equivalent and should work everywher
 ```
 du -c -s -h
 ```
+
+
+### Change a user's default shell
+```sudo chsh -s /path/to/shell username```
+
+Source: https://superuser.com/questions/379725/how-do-i-change-a-users-default-shell-in-osx
