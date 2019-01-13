@@ -11,6 +11,7 @@ If anyone else finds this useful, even better :-D.
 |-- [cmd-line network tools](networking_tools.md)<br>
 |-- [cmd-line ssh](ssh.md)<br>
 |-- [GitHub](GitHub.md)<br>
+|-- [Javascript](javascript.md)<br>
 |-- [Linux random bits](linux.md)<br>
 |-- [Mac OS X - GUI and cmd-line](osx.md)<br>
 |-- [misc cmd-line tools](tools_command_line.md)<br>
