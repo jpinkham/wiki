@@ -6,5 +6,6 @@ show IMEI:
 
 Show data usage:
 ```*3282#```
+
 Current account balance
 ```*225#```
