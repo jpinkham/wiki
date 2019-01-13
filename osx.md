@@ -40,6 +40,12 @@ Ex usage: accessing an iCloud calendar with Amazon Alexa <br>
 Log on to https://appleid.apple.com/.  Navigate to Security --> App-specific Passwords --> Generate <br>
 You may want to take a screenshot of the password that gets generated because you will never be able to see it again
 
+
+### Change a user's default shell
+```sudo chsh -s /path/to/shell username```
+
+Source: https://superuser.com/questions/379725/how-do-i-change-a-users-default-shell-in-osx
+
 ---
 
 Homebrew - installer for all the good stuff
