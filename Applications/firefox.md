@@ -26,6 +26,7 @@ about:support
 ```
 Reference: https://www.ghacks.net/2011/09/18/display-all-modified-firefox-preferences/
 
+---
 
 ### Expose phishing sites using non-ASCII characters in domain name
 ```
@@ -39,13 +40,15 @@ Check these resources to see examples of domains that are impossible to identify
 
 * [Mozilla KB: network.IDN_show_punycode](http://kb.mozillazine.org/Network.IDN_show_punycode)
 	
+---
 
 ### Enable U2F hardware key authentication
 Needed for a Yubikey to work
 
 ```security.webauth.u2f = true```
 	
-	
+---
+
 ### Disable these "features" in Firefox that are invading your privacy
 WARN: certain sites (ex: ProtonMail) may behave differently with privacy.resistFingerprinting disabled, ex: timestamps in GMT instead of your localtimezine
 
