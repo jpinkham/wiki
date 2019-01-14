@@ -20,12 +20,18 @@ Config settings to enable/customize
 -----------------------------------
 Resource: http://kb.mozillazine.org/About:config_entries
 
+### Get a list of all the config vars that you have customized
+```
+about:support
+```
+Reference: https://www.ghacks.net/2011/09/18/display-all-modified-firefox-preferences/
+
+
+### Expose phishing sites using non-ASCII characters in domain name
 ```
 network.IDN_show_punycode = true
 ```
-So you can't be fooled by phishing sites that are using non-ASCII characters in order to -look- like they are a legitimate site.
-
-Resources:
+Check these resources to see examples of domains that are impossible to identify visually as being likely phishing sites:
 
 * [Phishing with Unicode Domains](https://www.xudongz.com/blog/2017/idn-phishing/)
 
@@ -34,16 +40,14 @@ Resources:
 * [Mozilla KB: network.IDN_show_punycode](http://kb.mozillazine.org/Network.IDN_show_punycode)
 	
 
----
+### Enable U2F hardware key authentication
+Needed for a Yubikey to work
 
 ```security.webauth.u2f = true```
-
-To enable support for U2F hardware key authentication (Ex: Yubikey)
-
----
-
+	
 	
 ### Disable these "features" in Firefox that are invading your privacy
+WARN: certain sites (ex: ProtonMail) may behave differently with privacy.resistFingerprinting disabled, ex: timestamps in GMT instead of your localtimezine
 
 ```
 #! SET THESE TO FALSE, UNLESS SPECIFIED OTHERWISE
