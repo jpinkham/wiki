@@ -2,19 +2,22 @@ Extensions aka Plugins
 -------
 |Extension Name|URL|Description| Why |
 |-----------|---|-----------|-----|
-| Diigo | https://addons.mozilla.org/en-US/firefox/addon/diigo-web-collector/ | Bookmarks, annotations, oraganize research | Research |
+| Diigo | https://addons.mozilla.org/en-US/firefox/addon/diigo-web-collector/ | Bookmarks, annotations, organize research | Research |
 | Auto reload Tab | https://addons.mozilla.org/en-US/firefox/addon/auto-reload-tab/ | Enable on a per-tab basis, each with custom time limit. | Ease of use |
 | Evernote page clipper | https://addons.mozilla.org/en-US/firefox/addon/evernote-web-clipper/ | PDFs are broken! But it does clip webpages and can strip out all the ads and sidenav and whatnot | Research |
 | Cookie Manager | https://addons.mozilla.org/en-US/firefox/addon/a-cookie-manager/ | Easily search, review, modify, remove cookies. Container support. Handy for nuking pesky Google ReCaptcha cookie after you fail. | Privacy, Security |
 | I Don't Care About Cookies | https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/ | Auto-clicks those annoying "HEY WE USE COOKIES! READ ALL ABOUT IT!" popups caused by GDPR | Ease of use |
-| Multi-Account Containers | https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/ | Sep cookie jars so Amazon, FB, Google, etc can't follow you all around the internet. Also allows multiple accounts logged into same service (ex: gmail). | Privacy, Security |
+| Multi-Account Containers | https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/ | Sep cookie jars so Amazon, FB, Google, etc can't follow you all around the internet. Also allows multiple accounts logged into same service (ex: gmail). | Privacy, Recon, Security |
 | Cookie AutoDelete | https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ | Delete cookies for a site, and all its trackers, when you close a tab or navigate to new site/domain. | Privacy |
 | DuckDuckGo Privacy Essentials | https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/ | Forces HTTPS, blocks most trackers. | Browser speed, Privacy, Security |
 | LastPass Password Manager | https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/ | Password storage, form fills, and more | Ease of use, Security |
 | Skip Redirect | https://addons.mozilla.org/en-US/firefox/addon/skip-redirect/ | Skips any intermediate pages, like trackers, affiliates, etc, sending you straight to destination | Privacy, Security |
 | uBlock Origin | https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/ | Blocks ads, trackers, hosts, anything you can write a regex for.  Light on memory and high in performance (vs AdBlock Plus) |  Browser speed, Privacy, Security |
 | Tab Session Manager | https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/ | Backup all open windows and tabs automatically. Easily recover from crashes or windows you closed accidentally.  | Ease of use |
+| IP Address & Domain Information | https://addons.mozilla.org/en-US/firefox/addon/ip-address-and-domain-info/ | Lookup info about the DNS and IP address of the site you're visiting, or any other | Recon |
+| NoScript Security Suite | https://addons.mozilla.org/en-US/firefox/addon/noscript/ | Protects you from multiple JS attack vectors like XSS and Clickjacking and many others | Security | 
 
+---
 
 Config settings to enable/customize
 -----------------------------------
