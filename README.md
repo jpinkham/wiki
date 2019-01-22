@@ -22,6 +22,7 @@ If anyone else finds this useful, even better :-D.
 |---------[Recon](Sec/recon.md)<br>
 |--[M$ Windows](windows)<br>
 |---------[Shortcut to adding startup apps](windows/add_startup_apps.md)<br>
+|---------[Keyboard shortcuts](windows/keyboard_shortcuts.md)<br>
 
 
 
