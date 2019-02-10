@@ -5,12 +5,18 @@ New Dell linux laptop
 
 TODO
 ======
+[X] Backup after first update
 [X] UPGRADE to 18.04 LTS 
     subsequent update upgraded to 18.04.1
 - Find a tiny bluetooth USB (this laptop seems to have it missing, even though original laptop has it)
 - UPGRADE to 18.10
 - move clock into the top menubar far right (change to 12h time format, with date)
 - use private gitlab repo to store some data? sync my whole home dir?
+- create multiple virtual desktops
+-Misc
+	- Possible to sync contacts & calendar with iCloud?
+	- Automated backups to iDrive
+	- UPDATE sources: change Dell xenial links to use bionicn
 [X] use public github wiki repo to store changes I'm making to new laptop? https://github.com/jpinkham/wiki/blob/master/new_computer_customize.md
 - install
 	[X] Livepatch -- configured as part of the "what's new" popup on first boot with 18.
@@ -28,8 +34,21 @@ TODO
          + security settings in about:config
 
 	[X] git
+	- app launcher (alfred/albert?)
+	- Virtualbox
+		- Buscador 2.0
+		- Tails
+	- ProtonMail bridge
+		- 
+- REMOVE
+	-Games - Mines, Mahjongg, Sudoku
+	-Activity Monitor - creates audit trail and remembers all your activities. no thanks!
+	-Amazon
+	-gWakeOnLan
+	-gnome ToDo
 	
-	app launcher (alfred/albert?)
+	
+	
 
 
 jpinkham@STRONGBAD:~$ sudo apt-get install git
