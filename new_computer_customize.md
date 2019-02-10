@@ -7,7 +7,7 @@ General
 
 
 #### Touchpad
-- enable palm protection (so mouse movements won't be detected while you're trying to type
+- enable palm protection (so mouse movements won't be detected while you're trying to type)
 - disable "natural" scrolling
 - enable two-finger scrolling
 - set triple-tap == middle mouse button == paste (in Terminal)
@@ -20,7 +20,7 @@ General
 
 ### Apps
 - f.lux - to nix that bright white/blue screen
-- install Firefox and set as default browser; follow settings in [Apps/Firefox.md]()
+- install Firefox and set as default browser; follow settings in [Applications/firefox.md]()
 - git & clone this wiki
 
 
