@@ -36,6 +36,8 @@ TODO
 	[X] git
 	- app launcher (alfred/albert?)
 	[X] unity-tweak-tool
+	[X] ufw (firewall)
+	[X] nmap
 	- sshd
 	- Virtualbox
 		- Buscador 2.0
@@ -48,7 +50,34 @@ TODO
 	-Amazon
 	-gWakeOnLan
 	-gnome ToDo
-	
+
+
+
+------------------------------------------
+firewall setup:
+jpinkham@STRONGBAD:~$ sudo ufw enable
+Firewall is active and enabled on system startup
+jpinkham@STRONGBAD:~$ sudo ufw status
+Status: active
+jpinkham@STRONGBAD:~$ sudo ufw status verbose
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+jpinkham@STRONGBAD:~$ sudo ufw allow ssh
+Rule added
+Rule added (v6)
+jpinkham@STRONGBAD:~$ sudo ufw status verbose
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    Anywhere                  
+22/tcp (v6)                ALLOW IN    Anywhere (v6)      
+
 	
 	
 
