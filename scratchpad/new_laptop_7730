@@ -35,7 +35,8 @@ TODO
 	[X] redshift (replacement for f.lux)
 	[X] git
 	- app launcher (alfred/albert?)
-	- unity-tweak-tool
+	[X] unity-tweak-tool
+	- sshd
 	- Virtualbox
 		- Buscador 2.0
 		- Tails
