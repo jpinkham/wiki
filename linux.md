@@ -40,6 +40,10 @@ Reference: https://linuxroutes.com/resolve-bad-magic-number-in-super-block-in-er
 Needed to resolve "bad magic number in super-block" error
 
 
+### Show only hardware local mounted drives
+```mount | grep -e '^\/dev'```
+This will limit the output to lines that start with "/dev", to cut down on noise from tmpfs, sysfs, proc, snaps, etc
+
 
 ### Change a user's default shell
 ```sudo chsh -s /path/to/shell username```
