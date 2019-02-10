@@ -32,7 +32,7 @@ TODO
 		 [X] create sep profile that's clean
 		 + create Burp profile	
          + security settings in about:config
-
+	[X] f.lux (fluxgui + xflux)
 	[X] git
 	- app launcher (alfred/albert?)
 	- Virtualbox
