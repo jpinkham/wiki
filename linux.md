@@ -34,7 +34,9 @@ du -c -s -h
 
 ### Determine locations of superblock backups
 ```sudo mke2fs -n /dev/sda1```
+
 Reference: https://linuxroutes.com/resolve-bad-magic-number-in-super-block-in-error/
+
 Needed to resolve "bad magic number in super-block" error
 
 
