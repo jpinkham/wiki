@@ -32,6 +32,12 @@ NOTE: This may not work in BSD/OSX. This is equivalent and should work everywher
 du -c -s -h
 ```
 
+### Determine locations of superblock backups
+```sudo mke2fs -n /dev/sda1```
+Reference: https://linuxroutes.com/resolve-bad-magic-number-in-super-block-in-error/
+Needed to resolve "bad magic number in super-block" error
+
+
 
 ### Change a user's default shell
 ```sudo chsh -s /path/to/shell username```
