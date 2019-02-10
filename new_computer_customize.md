@@ -20,7 +20,7 @@ General
 
 ### Apps
 - f.lux - to nix that bright white/blue screen
-- install Firefox and set as default browser; follow settings in [Applications/firefox.md]()
+- install Firefox and set as default browser; follow settings in [Firefox](Applications/firefox.md)
 - git & clone this wiki
 
 
