@@ -1,8 +1,6 @@
 New Dell linux laptop
 
 
-
-
 TODO
 ======
 [X] Backup after first update
@@ -39,7 +37,8 @@ TODO
 	[X] ufw (firewall)
 	[X] nmap
 	- sshd
-	- Virtualbox
+	- Virtualbox -- INSTALLED but failed 
+		
 		- Buscador 2.0
 		- Tails
 	- ProtonMail bridge
@@ -50,6 +49,30 @@ TODO
 	-Amazon
 	-gWakeOnLan
 	-gnome ToDo
+------------------------------------------
+Virtualbox
+Setting up virtualbox (5.2.18-dfsg-2~ubuntu18.04.3) ...
+vboxweb.service is a disabled or a static unit, not starting it.
+Job for virtualbox.service failed because the control process exited with error code.
+See "systemctl status virtualbox.service" and "journalctl -xe" for details.
+invoke-rc.d: initscript virtualbox, action "restart" failed.
+● virtualbox.service - LSB: VirtualBox Linux kernel module
+   Loaded: loaded (/etc/init.d/virtualbox; generated)
+   Active: failed (Result: exit-code) since Sun 2019-02-10 17:48:54 EST; 5ms ago
+     Docs: man:systemd-sysv-generator(8)
+  Process: 9767 ExecStart=/etc/init.d/virtualbox start (code=exited, status=1/FAILURE)
+
+Feb 10 17:48:54 STRONGBAD systemd[1]: Starting LSB: VirtualBox Linux kernel module...
+Feb 10 17:48:54 STRONGBAD virtualbox[9767]:  * Loading VirtualBox kernel modules...
+Feb 10 17:48:54 STRONGBAD virtualbox[9767]:  * No suitable module for running kernel found
+Feb 10 17:48:54 STRONGBAD virtualbox[9767]:    ...fail!
+Feb 10 17:48:54 STRONGBAD systemd[1]: virtualbox.service: Control process exited, code=exited status=1
+Feb 10 17:48:54 STRONGBAD systemd[1]: virtualbox.service: Failed with result 'exit-code'.
+Feb 10 17:48:54 STRONGBAD systemd[1]: Failed to start LSB: VirtualBox Linux kernel module.
+Setting up virtualbox-qt (5.2.18-dfsg-2~ubuntu18.04.3) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+Processing triggers for systemd (237-3ubuntu10.12) ...
+
 
 
 
