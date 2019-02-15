@@ -1,6 +1,36 @@
 New Dell linux laptop
 
 
+[X] Install 4.20 kernel manually, hopefully fixes issues with Virtualbox
+https://itsfoss.com/upgrade-linux-kernel-ubuntu/
+
+* Installed "ukuu" (Ubuntu Kernel Update Utility) to make it easier.  [ 02/14/2018 ]
+sudo add-apt-repository ppa:teejee2008/ppa
+sudo ukuu --install-latest
+ukuu v18.9.3
+Distribution: Ubuntu 18.04.2 LTS
+Architecture: amd64
+Running kernel: 4.18.0-15-generic
+Kernel version: 4.18.0.15.16
+Cache: /home/jpinkham/.cache/ukuu
+Temp: /tmp/ukuu/dJlTO6nB
+aria2c version: 1.33.1
+
+Fetching index...
+
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100 % 
+
+----------------------------------------------------------------------
+Found installed: 4.18.0.15.65
+Found installed: 4.15.0.1033.38
+Found installed: 4.18.0-15.16~18.04.1
+Found installed: 4.15.0-1033.38
+----------------------------------------------------------------------
+Latest update: 4.20.8
+
+Install Linux v4.20.8 ? (y/n): 
+
+
 TODO
 ======
 [X] Backup after first update
