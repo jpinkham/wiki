@@ -1,6 +1,32 @@
 New Dell linux laptop
 
 
+2/14/2019:
+Installed ukuu
+Used ukuu to install  4.20.x kernel
+After reboot, virtualbox started up, but it complained that I needed virtualbox-dkms due to missing /dev/virtualbox or something.
+ran "apt purge virtualbox" to remove and purge
+Reinstalled virtualbox fresh.
+Used apt to install Firefox so I won't have to use the version I downloaded from firefox that had no installer.
+
+FRESH INSTALL DID NOT FIX VIRTUALBOX! same issue
+
+sudo systemctl status virtualbox.service
+● virtualbox.service - LSB: VirtualBox Linux kernel module
+   Loaded: loaded (/etc/init.d/virtualbox; generated)
+   Active: failed (Result: exit-code) since Thu 2019-02-14 20:37:30 EST; 29s ago
+     Docs: man:systemd-sysv-generator(8)
+  Process: 6924 ExecStart=/etc/init.d/virtualbox start (code=exited, status=1/FAILURE)
+
+Feb 14 20:37:30 STRONGBAD systemd[1]: Starting LSB: VirtualBox Linux kernel module...
+Feb 14 20:37:30 STRONGBAD virtualbox[6924]:  * Loading VirtualBox kernel modules...
+Feb 14 20:37:30 STRONGBAD virtualbox[6924]:  * No suitable module for running kernel found
+Feb 14 20:37:30 STRONGBAD virtualbox[6924]:    ...fail!
+Feb 14 20:37:30 STRONGBAD systemd[1]: virtualbox.service: Control process exited, code=exited status=1
+Feb 14 20:37:30 STRONGBAD systemd[1]: virtualbox.service: Failed with result 'exit-code'.
+Feb 14 20:37:30 STRONGBAD systemd[1]: Failed to start LSB: VirtualBox Linux kernel module.
+
+
 [X] Install 4.20 kernel manually, hopefully fixes issues with Virtualbox
 https://itsfoss.com/upgrade-linux-kernel-ubuntu/
 
