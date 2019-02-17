@@ -1,7 +1,31 @@
 New Dell linux laptop
 
 
+2/17/2018:
+Buiding vbox from source for current kernel -- failed
+Pulled latest-ish virtualbox version (5.2.25) direct from their repo & it worked!
+https://websiteforstudents.com/install-the-latest-virtualbox-on-ubuntu-18-04-lts/
+Installed latest vbox extension pack: https://www.virtualbox.org/wiki/Download_Old_Builds_5_2
+Added more ProtonVPN server configs
+Installed clipboard manager applet: http://tipsonubuntu.com/2018/02/18/install-copyq-clipboard-manager-3-2-ubuntu-18-0416-04/
+  868  sudo add-apt-repository ppa:hluk/copyq
+  869  sudo apt-get update
+  870  sudo apt install copyq
+
+Virtualbox:
+Mounted new SSD to VirtualBox\ VMs
+sudo chmod 765 VirtualBox\ VMs/
+sudo chown jpinkham.vboxusers VirtualBox\ VMs/
+sudo chgrp -R vboxusers *    (in the VM dir)
+
+
+
+
 2/14/2019:
+Installed Gnome MATE properly: sudo apt install ubuntu-mate-desktop
+Installed Cinnamon as well: sudo apt install cinnamon-desktop-environment
+Post-reboot, both showed up in the menu available at the login screen
+
 Installed ukuu
 Used ukuu to install  4.20.x kernel
 After reboot, virtualbox started up, but it complained that I needed virtualbox-dkms due to missing /dev/virtualbox or something.
@@ -67,7 +91,7 @@ TODO
 - use private gitlab repo to store some data? sync my whole home dir?
 - create multiple virtual desktops
 -Misc
-	- Install all dotfiles from my repo
+	[X] Install all dotfiles from my repo
 	- Possible to sync contacts & calendar with iCloud?
 	- Automated backups to iDrive
 	[X] UPDATE sources: change Dell xenial links to use bionicn
@@ -80,12 +104,12 @@ TODO
 	        
 		 + usual plugins; 
 		    [X] Lastpass
-		    - Diigo
-		    - Evernote
-		    - Cookie AutoDelete
+		    [X] Diigo
+		    [X] Evernote
+		    [X] Cookie AutoDelete
 		 [X] create sep profile that's clean
-		 + create Burp profile	
-         + security settings in about:config
+		 [X] create Burp profile	
+        [X] security settings in about:config
 	[X] redshift (replacement for f.lux)
 	[X] git
 		[X] Set user/email global vars (git config --global user.email && git config --global user.name)
@@ -94,13 +118,13 @@ TODO
 	[X] ufw (firewall)
 	[X] nmap
 	- sshd
-	- Virtualbox -- INSTALLED but failed 
+	[X] Virtualbox
 		
 		- Buscador 2.0
 		- Tails
 	- ProtonMail bridge
 		- 
-- REMOVE
+- REMOVED
 	-Games - Mines, Mahjongg, Sudoku
 	-Activity Monitor - creates audit trail and remembers all your activities. no thanks!
 	-Amazon
