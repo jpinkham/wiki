@@ -17,6 +17,7 @@ Extensions aka Plugins
 | IP Address & Domain Information | https://addons.mozilla.org/en-US/firefox/addon/ip-address-and-domain-info/ | Lookup info about the DNS and IP address of the site you're visiting, or any other | Recon |
 | NoScript Security Suite | https://addons.mozilla.org/en-US/firefox/addon/noscript/ | Protects you from multiple JS attack vectors like XSS and Clickjacking and many others | Security | 
 | Privacy Badger | https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/ | Created by EFF to block page and link trackers; learns as you browse | Privacy |
+| Link Gopher | https://addons.mozilla.org/en-US/firefox/addon/link-gopher/ | Extracts all links on a page into a new HTML file you can save | Tool |
 
 
 ---
