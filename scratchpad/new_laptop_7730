@@ -14,8 +14,124 @@ Keyboard shortcuts (Control Center --> Hardware --> Keyboard shortcuts)
 	- Tile window to left side of screen = Mod4/Win + <--
 	- Tile window to right side of screen = Mod4/Win + -->
 	- Move window to workspace 0-9 = Ctrl + Alt + #
+Configure iDrive and run full backup (NEW! Configure and run backups from web dashboard)
+	- Download latest set of scripts (https://www.idrivedownloads.com/downloads/linux/download-for-linux/IDriveForLinux.zip)
+	- Unzipped to /usr/
+	- Ran /usr/IDriveForLinux/scripts/account_setting.pl
 	
 	
+iDrive for Linux output
+---------------------------------------------------------
+================================================================================
+Version: 2.17            Developed By: IDrive Inc.
+-------------            -------------------------------------------------------
+Status: --               Username: No logged in user
+================================================================================
+
+Checking for package dependencies...
+unzip... found.
+curl... found.
+
+Dear User, Please provide your details below.
+
+Enter your service path [This location will be used to maintain the temporary data used by your scripts] [Optional]: 
+Considering your default service directory...
+
+Your service directory is: /usr/IDriveForLinux/idriveIt
+
+Hardware Platform... 64-bit
+
+
+Are you using Proxy (y/n)? 
+Enter your choice: n
+Checking for compatible EVS command line utility... 
+Successfully downloaded compatible EVS command line utility.
+
+Checking for compatible static perl command line utility... 
+Successfully downloaded compatible static perl command line utility.
+
+Enter your IDrive username: unrulygrrl@gmail.com
+Enter your IDrive password: 
+
+Verifying your account information... 
+
+Creating user directory...
+User directory has been created successfully.
+
+Enter your encryption key: 
+Verifying your encryption key...
+Verification of encryption key is successful.
+
+
+Setting up IDrive Cron service. Please Wait...
+IDrive Cron service started.
+
+
+Starting Dashboard service...
+Dashboard service started.
+
+Multiple Backup Locations are configured with this account. Select an option: 
+
+1) Create new Backup Location
+2) Select from existing Backup Locations
+
+Enter your choice: 1
+Enter your Backup Location [Note: Backup location should contain only letters, numbers and characters(-_)] [Optional]: Strongbad
+Setting up your backup location...
+Your Backup Location is set to "Strongbad".
+
+Enter your Restore Location [Optional]: 
+Considering Default Restore Location as "/usr/IDriveForLinux/idriveIt/user_profile/root/unrulygrrl@gmail.com/Restore_Data".
+Your Restore Location is set to "/usr/IDriveForLinux/idriveIt/user_profile/root/unrulygrrl@gmail.com/Restore_Data".
+
+Your restore from location is set to "Strongbad". Do you wish to modify (y/n)?
+Enter your choice: n
+Your restore from location is set to "Strongbad".
+
+Restore Location prompt is "Enabled". Do you want to "Disable" (y/n)?
+Enter your choice: n
+
+Software update notification is "Disabled". Do you want to "Enable" (y/n)?
+Enter your choice: y
+Software update notification is "Enabled".
+
+Enter your e-mail address [Optional]: Idrivebackup@ch1x0r.org
+Configured e-mail address is Idrivebackup@ch1x0r.org
+
+Your default mount point for express backup is set to "/tmp".
+
+Your 'Retain logs' option has been "Enabled".
+
+Default failed files percentage to notify as 'Failure' is set to 5%.
+If the total files failed for backup is more than 5%, then backup will be notified as failure. 
+
+Your 'Ignore file/folder level permission error' option has been "Disabled".
+
+Your 'Show hidden files/folders' option has been "Enabled".
+
+Your desktop access has been "Enabled".
+
+Your 'Upload multiple file chunks simultaneously' option has been "Enabled".
+
+Default missing files percentage to notify as 'Failure' is set to 5%.
+If the total files missing for backup is more than 5%, then backup will be notified as failure. 
+
+Your default bandwidth throttle is set to 100%.
+
+Your default Backupset file has been created successfully.
+Your default Restoreset file has been created successfully.
+Your default Express Backupset file has been created successfully.
+Your default Full Exclude list file has been created successfully.
+Your default Partial Exclude list file has been created successfully.
+Your default Regex Exclude list file has been created successfully.
+
+"unrulygrrl@gmail.com" is configured successfully. Do you want to login as "unrulygrrl@gmail.com" (y/n)?
+Enter your choice: y
+
+"unrulygrrl@gmail.com" is logged in successfully.
+
+---------------------------------------------------------
+
 
 2/17/2018:
 Buiding vbox from source for current kernel -- failed
@@ -105,7 +221,7 @@ TODO
 - upgrade to 18.10 -- BUT it doesn't support LivePatch
 - move clock into the top menubar far right (change to 12h time format, with date)
 - use private gitlab repo to store some data? sync my whole home dir?
-- create multiple virtual desktops
+[X] create multiple virtual desktops (10)
 -Misc
 	[X] Install all dotfiles from my repo
 	- Possible to sync contacts & calendar with iCloud?
@@ -136,7 +252,7 @@ TODO
 	- sshd
 	[X] Virtualbox
 		
-		- Buscador 2.0
+		[X] Buscador 2.0
 		- Tails
 	- ProtonMail bridge
 		- 
