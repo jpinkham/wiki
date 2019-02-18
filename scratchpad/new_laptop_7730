@@ -1,5 +1,21 @@
 New Dell linux laptop
 
+2/18/2019:
+Installed numlockx, so I can use the numlock setting in 
+	Control Center --> Admin --> Login window --> Settings --> Activate numlock
+Added more virtual desktops/workspaces, so I have 10 total
+Custom keyboard settings: ((Control Center --> Hardware --> Keyboard)
+	- Keyboard --> Layout --> Custom model: Dell Precision M laptop (which includes sep numpad area)
+	- Keyboard --> Layout --> Options --> 
+		- Caps Lock Behavior --> Disable
+		- Key sequence to kill the X server --> Enable: Ctrl-Alt-Backspace
+Keyboard shortcuts (Control Center --> Hardware --> Keyboard shortcuts)
+	- Add shortcuts for new virtual desktop 5-10 (Ctrl + #)
+	- Tile window to left side of screen = Mod4/Win + <--
+	- Tile window to right side of screen = Mod4/Win + -->
+	- Move window to workspace 0-9 = Ctrl + Alt + #
+	
+	
 
 2/17/2018:
 Buiding vbox from source for current kernel -- failed
