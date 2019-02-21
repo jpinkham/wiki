@@ -66,6 +66,13 @@ More brew documentation available at https://docs.brew.sh
 Start, stop, enable, disable, unload from memory
 
 
+#### See what services may be running
+Just apple, or everything but apple
+```
+launchctl list |awk {'print $3'}|sort|grep apple
+launchctl list |awk {'print $3'}|sort|grep -v apple
+```
+
 #### Turn off Symantec virus scanner until next reboot
 ```
 launchctl stop com.symantec.uiagent.application.NFM
