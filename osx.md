@@ -120,6 +120,11 @@ This can show you the current user-approved extensions in case you want to look 
 Reference: Mentioned in https://www.silabs.com/community/interface/knowledge-base.entry.html/2018/03/30/usb_to_uart_bridgev-Dnef
 
 
+
+“Use your macOS terminal shell to do awesome things”. https://github.com/herrbischoff/awesome-macos-command-line
+
+
+
 ---
 
 OS X UI
