@@ -1,5 +1,26 @@
 New Dell linux laptop
 
+TODO:
+[ ] VM: Tails
+[ ] VM: FreeBSD
+[ ] VM: Buscador 2.0
+[ ] VM: ParrotSec
+[ ] VM: Elementary OS
+[ ] VM: Metasploitable
+[ ] VM: Security Onion
+[ ] VM: ReactOS - linux-ish distro that can run Windows binaries!!  Should run Evernote when 0.4.11 is released.
+[ ] VM: Windows 7
+[ ] VM: Windows 10
+	[ ] WinPatrol
+	[ ] iDrive
+	[ ] Evernote
+	
+[ ] Conky
+[ ] Clonezilla - create bootable clone on 4TB drive
+[X] Reconfigure LivePatch to run only once or twice per day
+
+
+
 2/18/2019:
 Installed numlockx, so I can use the numlock setting in 
 	Control Center --> Admin --> Login window --> Settings --> Activate numlock
