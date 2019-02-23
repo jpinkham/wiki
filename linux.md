@@ -17,6 +17,21 @@ apt-file list <package>   #NOTE: This works on any pkg, not just installed ones
 dpkg -L <package>
 ```
 
+---
+
+### LivePatch
+
+#### Display current config settings
+```
+canonical-livepatch config
+```
+
+
+#### Configure LivePatch check interval/frequency
+```
+sudo canonical-livepatch config check-interval=<number of minutes>
+```
+---
 
 ### Determine kernel version
 ```
