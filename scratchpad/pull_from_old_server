@@ -1,0 +1,13 @@
+Dirs to copy somewhere/backup
+=============================
+- Home dirs
+- /root
+- /etc
+- User Crontab files -- in /var/spool/cron/crontabs
+- all other crons -- /etc/crond
+
+Determine what services/daemons/etc you should install
+======================================================
+
+```ps aux``` -- check what's running so you know what to install on new server
+```sudo dmesg``` -- see what loads during bootup, to capture what custom drivers/settings you may need
