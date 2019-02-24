@@ -26,8 +26,11 @@ TODO
   
 [ ] install & config ufw
   [x] ssh port
+  [ ] port 25, once postfix is ready
 [ ] postfix - check all past customizations
 [ ] monit
+[x] portsentry
+[ ] logwatch
 
 
 
