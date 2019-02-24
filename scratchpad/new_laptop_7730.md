@@ -2,6 +2,7 @@ New Dell linux laptop
 
 TODO:
 [X] VM: Tails
+[x] VM: Kali 2019.1
 [ ] VM: FreeBSD
 [ ] VM: Buscador 2.0
 [ ] VM: ParrotSec
@@ -20,7 +21,22 @@ TODO:
 [ ] Conky
 [ ] Clonezilla - create bootable clone on 4TB drive
 [X] Reconfigure LivePatch to run only once or twice per day
-Installed CPANM (sudo cpan install App::cpanminus)
+
+---
+
+2/24/2018
+Installed Vineyard - helper for Wine, so I can try running some Windoze apps without a VM 
+Cloned win10 VM on macbook, copied files to laptop
+* VM seems to work but it's so high res I can barely see it. 
+* Need to determine how to set a different resolution on the VM
+Installed 'pip' (apparently that doesn't come with installing python?)
+Installed pip 'bandit' (python SAST):
+	Installing collected packages: PyYAML, pbr, six, stevedore, smmap2, gitdb2, GitPython, bandit
+	Successfully installed GitPython-2.1.11 PyYAML-3.13 bandit-1.5.1 gitdb2-2.0.5 pbr-5.1.2 six-1.12.0 smmap2-2.0.5 stevedore-1.30.0
+Installed pip 'pretty-json'  (provides json.tool)
+	Installing collected packages: Pygments, pygments-json, pretty-json
+	Successfully installed Pygments-2.3.1 pretty-json-1.2.0 pygments-json-0.1
+
 
 
 2/23/2019
