@@ -1,10 +1,11 @@
 New Dell linux laptop
 
 TODO:
-[ ] VM: Tails
+[X] VM: Tails
 [ ] VM: FreeBSD
 [ ] VM: Buscador 2.0
 [ ] VM: ParrotSec
+[ ] VM: Android x86
 [ ] VM: Elementary OS
 [ ] VM: Metasploitable
 [ ] VM: Security Onion
@@ -14,10 +15,19 @@ TODO:
 	[ ] WinPatrol
 	[ ] iDrive
 	[ ] Evernote
+	[ ] Overdrive ODM (audiobooks)
 	
 [ ] Conky
 [ ] Clonezilla - create bootable clone on 4TB drive
 [X] Reconfigure LivePatch to run only once or twice per day
+Installed CPANM (sudo cpan install App::cpanminus)
+
+
+2/23/2019
+Created Tails LiveCD VM
+Installed CPANM (sudo cpan install App::cpanminus)
+Installed "gloc": Perl GNU/Linux OverDrive/eMusic Client -- downloads OverDrive books using .odm files
+
 
 
 
