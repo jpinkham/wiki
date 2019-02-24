@@ -19,7 +19,10 @@ TODO
     ----FAILED
 [ ] SSH config
   [x] Port number
-  [ ] generate key for use with GitHub
+  [x] generate key for use with GitHub
+    [x] add entry to ~/.ssh/config for GH with IdentityFile line
+  [x] ssh-agent && ssh-add
+  
   
 [ ] install & config ufw
   [x] ssh port
