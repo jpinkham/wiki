@@ -37,3 +37,12 @@ ufw disable
 ufw status
 ufw allow <port # | service name>
 ```
+
+
+## SSL / TLS
+
+```
+openssl s_client -showcerts -connect <hostname>:443
+sslscan <hostname>
+testssl.sh https://<hostname>/[/optional/path]
+```
