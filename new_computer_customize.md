@@ -1,3 +1,6 @@
+# WIP - waiting til I complete a large chunk of my ad-hoc customizations in scratch/ before I generalize here
+
+
 Checklist for customizing a new computer
 ========================================
 
@@ -51,5 +54,7 @@ http://dell.archive.canonical.com/updates xenial-dell-service
 http://dell.archive.canonical.com/updates xenial-dell-whitehaven                                                                                               
 - Ubuntu: configure LivePatch (requires UbuntuOne acct) for autoupdates of most kernel patches w/o reboot reqd
 
+*** RETHINK this.
+Livepatch can only be installed with snapd and snap doesn't seem to have much of a following online. AND it has proven (and experienced by me as well) performance issues for apps installed via snap vs same apps installed with apt.
 
 
