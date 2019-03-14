@@ -1,3 +1,11 @@
+## IPv6 disable
+```
+sysctl -w net.ipv6.conf.all.disable_ipv6=1
+sysctl -w net.ipv6.conf.default.disable_ipv6=1
+```
+To re-enable, run the same commands but set values above to 0
+
+
 ## arp tools - network discovery
 Should be installed already
 ``` 
