@@ -4,14 +4,14 @@ TODO
 [X] VM: Tails
 [x] VM: Kali 2019.1
 [ ] VM: FreeBSD
-[ ] VM: Buscador 2.0
+[X] VM: Buscador 2.0
 [ ] VM: ParrotSec
-[ ] VM: Android x86
+[X] VM: Android x86
 [ ] VM: Elementary OS
 [ ] VM: Metasploitable
 [ ] VM: Security Onion
-[ ] VM: ReactOS - linux-ish distro that can run Windows binaries!!  Should run Evernote when 0.4.11 is released.
-[ ] VM: Windows 7
+[X] VM: ReactOS - linux-ish distro that can run Windows binaries!!  Should run Evernote when 0.4.11 is released.
+[X] VM: Windows 7
 [ ] VM: Windows 10
 	[ ] WinPatrol
 	[ ] iDrive
@@ -22,8 +22,8 @@ TODO
 [ ] Clonezilla - create bootable clone on 4TB drive
 [X] Reconfigure LivePatch to run only once or twice per day
 [ ] Install ProtonMail Bridge
-[ ] Configure Evolution to work with iCloud calendar and contacts
-[ ] Configure iDrive for automated backups
+[X] Configure Evolution to work with iCloud calendar and contacts
+[X] Configure iDrive for automated backups
 
 ```
 
@@ -31,7 +31,35 @@ TODO
 Daily changes
 =============
 
-### 2/24/2018
+
+### 3/13/2019
+- Mainly fighting with the damn RaspPi + TFT to run Kali
+- Configured bash history timestamp!
+
+
+
+### 3/12/2019
+- Installed PIA VPN client
+- Configured Calibre, importing all of Calibre from OSX box then importing to laptop (which preserves plugins as well!)
+- Tried to get custom touchpad gestures working. Installed the libs and a UI, i just don't know how to configure the UI (terrible UX)
+
+
+??
+- Installed ProtonMail Bridge, but it didn't work, only crashed and wouldn't seem to let me set the login credentials
+
+
+??
+- failed to get the laptop to mount the iphone filesystem (but Shotwell did try to load when it saw there were photos on it...but I couldn't import them, boo)
+
+
+
+??
+- Installed Calibre (was it already installed?)
+
+
+
+
+### 2/24/2019
 - Installed Vineyard - helper for Wine, so I can try running some Windoze apps without a VM 
 - Cloned win10 VM on macbook, copied files to laptop
 	* VM seems to work but it's so high res I can barely see it. 
