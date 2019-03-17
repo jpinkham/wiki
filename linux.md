@@ -55,6 +55,15 @@ Reference: https://linuxroutes.com/resolve-bad-magic-number-in-super-block-in-er
 Needed to resolve "bad magic number in super-block" error
 
 
+### Mount a raid 1 (mirror) drive
+```
+sudo mdadm --assemble --run /dev/md0 /dev/<partition to be mounted>
+Then mount /dev/md0
+```
+Reference: https://serverfault.com/questions/383362/mount-unknown-filesystem-type-linux-raid-member
+
+
+
 ### Show only hardware local mounted drives
 ```mount | grep -e '^\/dev'```
 This will limit the output to lines that start with "/dev", to cut down on noise from tmpfs, sysfs, proc, snaps, etc
