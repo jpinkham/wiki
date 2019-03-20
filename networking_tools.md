@@ -1,3 +1,46 @@
+# curl
+
+## Reading credentials from a file
+Why? Because you don't want to expose sensitive data by specifying a password on the command line!
+
+```
+-n, --netrc
+
+Makes curl scan the .netrc (_netrc on Windows) file in the user's home directory for login name and password. This is typically used for FTP on Unix. If used with HTTP, curl will enable user authentication. See netrc(5) ftp(1) for details on the file format. Curl will not complain if that file doesn't have the right permissions (it should not be either world- or group-readable). The environment variable "HOME" is used to find the home directory.
+
+A quick and very simple example of how to setup a .netrc to allow curl to FTP to the machine host.domain.com with user name 'myself' and password 'secret' should look similar to:
+
+machine <host> login <username> password <password>
+
+
+--netrc-file <filename>
+To point to a file other than .netrc
+
+```   
+
+## Test HTTP Response headers
+
+```curl -I <URL>```  which uses the ```HEAD``` HTTP method
+
+Optionally, add ```-k``` if the server has a bad SSL cert
+
+
+## Add custom request headers
+```curl -H "<header name>:<header value>"```
+
+
+
+## Examples
+```
+<<insert curl examples here >>
+
+
+```
+
+
+   
+---
+
 ## IPv6 disable
 ```
 sysctl -w net.ipv6.conf.all.disable_ipv6=1
@@ -53,4 +96,5 @@ ufw allow <port # | service name>
 openssl s_client -showcerts -connect <hostname>:443
 sslscan <hostname>
 testssl.sh https://<hostname>/[/optional/path]
+nmap --script "ssl*" -p 443 <hostname>
 ```
