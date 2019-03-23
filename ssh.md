@@ -3,6 +3,17 @@ sshd server
 ### Set alternate port to script kiddies will leave you alone
 ```Port 12345```
 
+Determining ssh key metadata
+================
+Determining the fingerprint of an existing keyfile (bits, key type, encryption algorithm, etc)
+```ssh-keygen -l -f ~/.ssh/<file>```
+
+Example output
+```
+1024 SHA256:<my key> <username>@<hostname> (RSA)
+```
+
+
 ssh key forwarding
 ==================
 This is a handy feature that can store keys in a cache, including passphrases.
