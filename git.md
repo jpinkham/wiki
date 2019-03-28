@@ -19,6 +19,15 @@
 ### Grepping files in the repo
 ```git grep <grep options> [file path/pattern]```
 
+
+### Checking out code from a specific pull request
+```
+1. Clone the repo
+2. Fetch the pull request and store in a custom branch
+git fetch origin pull/ + PR number + /head: + custom branch name
+3. Checkout the custom branch
+```
+
 --
 ## Global git settings
 
