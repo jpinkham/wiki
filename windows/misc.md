@@ -34,6 +34,13 @@ Reference: https://www.petri.com/easily-edit-hosts-file-windows-10
 Reference: https://winaero.com/blog/kill-process-windows-10/
 
 
+## List all processes/tasks
+1. CMD: ```tasklist.exe```
+2. PowerShell: ```get-process``` or ```gps```
+
+Reference: https://www.digitalcitizen.life/how-print-list-running-processes-windows-7-windows-8
+
+
 ---
 
 ## Open a File Manager window from the command line
@@ -45,3 +52,7 @@ Reference: https://www.howtogeek.com/howto/windows-vista/stupid-geek-tricks-open
 
 ---
 
+## Print system information
+```systeminfo```
+
+Example fields: OS name/version/config, system manufacturer/model, root device, windows dir, physical/virtual memory stats, Active Directory Domain, AD logon server, applied hotfixes, network interfaces
