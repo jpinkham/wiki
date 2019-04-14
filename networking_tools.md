@@ -59,6 +59,15 @@ Better results & faster; must install first
 sudo netdiscover  -P -N -L -r 192.168.1.0/24
 ```
 
+
+## avahi - network discovery/advertise
+
+Install ```avahi-utils```
+Finds all sort of interesting things (primary use is Apple Bonjour):
+```avahi-browse -a```
+
+
+
 ## dig
 ```dig @8.8.8.8 google.com +all +dnssec +trace any```
 
