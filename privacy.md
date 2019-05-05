@@ -19,5 +19,6 @@ Check these regularly
 Check these quarterly
 ---------------------
 * Facebook
-* LinkedIn
+  * https://www.consumerreports.org/privacy/facebook-privacy-settings/  (March 2019)
+* LinkedIn - https://www.linkedin.com/psettings/privacy
 * Twitter
