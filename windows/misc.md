@@ -3,6 +3,23 @@ Until I get enough stuff in here to further subdivide, it will all get dumped he
 
 # UI
 
+
+## To add or remove startup items
+
+For *all* users via the Startup folder, type the following shell command in the Run dialog:
+
+```
+shell:Common Startup
+```
+
+For *current* user
+```
+shell:Startup
+```
+
+
+
+
 ## Pin a window to all desktops
 * Pin all current and future windows of an app
 * Pin a single window of a multi-window app  (Ex: one OneNote window when you have several open)
