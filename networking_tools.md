@@ -37,14 +37,13 @@ Optionally, add ```-k``` if the server has a bad SSL cert
 
 ```
 
-
    
 ---
 
 ## IPv6 disable
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1
-sysctl -w net.ipv6.conf.default.disable_ipv6=1
+sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
+sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
 ```
 To re-enable, run the same commands but set values above to 0
 
@@ -88,6 +87,9 @@ netstat -at -f inet
    
 # same, but shows numeric hosts and ports
 netstat -ant -f inet  
+
+# Shows the process listening on the port
+sudo netstat -antp
 ```
 
 ## ufw - Uncomplicated FireWall
