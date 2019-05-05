@@ -6,6 +6,7 @@ If anyone else finds this useful, even better :-D.
 |----[Applications](Applications)<br>
 |---------[Firefox](Applications/firefox.md)<br>
 |---------[LastPass](Applications/LastPass.md)<br>
+|---------[Linux apps](Applications/linux_apps.md)<br>
 |-- [Cellphones](Cellphones.md)<br>
 |-- [cmd-line git](git.md)<br>
 |-- [cmd-line network tools](networking_tools.md)<br>
@@ -14,7 +15,8 @@ If anyone else finds this useful, even better :-D.
 |-- [Javascript](javascript.md)<br>
 |-- [Linux random bits](linux.md)<br>
 |-- [Mac OS X - GUI and cmd-line](osx.md)<br>
-|-- [misc cmd-line tools](tools_command_line.md)<br>
+|-- [Misc cmd-line tools](tools_command_line.md)<br>
+|---[Privacy](privacy.md)<br>
 |-- README.md - This file :-)<br>
 |--[Security](Sec)<br>
 |---------[Metasploit](Sec/metasploit.md)<br>
