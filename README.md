@@ -10,13 +10,16 @@ If anyone else finds this useful, even better :-D.
   * [Linux apps](Applications/linux_apps.md)
   
  
- 
 * Command-line tools
   * [git tricks](git.md)
   * [Mac OS X - GUI and cmd-line](osx.md)
   * [Misc cmd-line tools](tools_command_line.md)
   * [Network tools](networking_tools.md)
   * [SSH](ssh.md)
+
+* Hardware
+  * [Tools for interrogating hardware](Tools_for_hardware_interrogation.md)
+
 
 * [Javascript](javascript.md)
 
