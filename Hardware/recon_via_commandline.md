@@ -1,10 +1,10 @@
 Once you have shell access to a device (running some form of *nix), run through these to quickly learn as much as possible
 
-##Commands to try:
-
+## Commands to try:
+```
     whoami
     pwd
-    ps
+    ps auxwww -- to see all running processes and wide enough display to capture all flags of running commands
     cat /proc/cpuinfo || lscpu
     cat /etc/resolv.conf
     ifconfig -a
@@ -17,16 +17,17 @@ Once you have shell access to a device (running some form of *nix), run through 
     set
     printenv
     uptime
-    lsblk
-    lsusb
+    lsblk - list block devices
+    lsusb - list USB devices
     lspci
     lshw
     ls
-    lsmod
+    lsmod - list loaded kernel modules
+    lsblk - list block devices
     lsof (if installed)
     hwinfo —short
     last - shows recent user logins AND reboot/shutdown/crash
-
+```
 
 
 ## Directories of interest:
