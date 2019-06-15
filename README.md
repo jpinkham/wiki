@@ -1,5 +1,5 @@
 # wiki
-Collecting all the scattered, random mostly-tech data sticky notes into a single knowledgebase for myself.<br>
+Rather than have a million bookmarks that link to useful sites, just keep all the random info I need infrequently in one spot.
 If anyone else finds this useful, even better :-D.
 
 
@@ -31,13 +31,13 @@ If anyone else finds this useful, even better :-D.
 
 
 
-[Security](Sec)
+* [Security](Sec)
   * [Metasploit tips](Sec/metasploit.md)
   * [Metasploit msfconsole man page](Sec/metasploit_msfconsole_commands.md)
   * [Recon/Footprint](Sec/recon.md)
   
   
-[M$ Windows](windows)
+* [M$ Windows](windows)
   * [Shortcut to adding startup apps](windows/add_startup_apps.md)<br>
   * [Keyboard shortcuts](windows/keyboard_shortcuts.md)<br>
  
