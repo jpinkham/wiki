@@ -7,6 +7,10 @@ cat /proc/version
 lsb_release -a
 ```
 
+### Display BIOS metadata -- no reboot needed! 
+```dmidecode --type bios```
+
+
 ### Ubuntu (any Debian?) -- check for non-LTS OS upgrades
 ```sudo vi /etc/update-manager/release-upgrades```
 Make sure the "Prompt" value is set to "normal" and not "lts"
