@@ -18,7 +18,7 @@ If anyone else finds this useful, even better :-D.
   * [SSH](ssh.md)
 
 * Hardware
-  * [Tools for interrogating hardware](Tools_for_hardware_interrogation.md)
+  * [Tools for interrogating hardware](Hardware/Tools_for_hardware_interrogation.md)
 
 
 * [Javascript](javascript.md)
