@@ -9,11 +9,11 @@ Once you have shell access to a device (running some form of *nix), run through 
     cat /etc/resolv.conf
     ifconfig -a
     uname -a
-    date (to determine timezone as well as current date/time)
-    df -h
+    date - to determine timezone as well as current date/time)
+    df -h - human-readable storage sizes 
     mount
     crontab -l
-    netstat    -antp,  -ar,   - atp
+    netstat    -antp,  -ar,   -atp
     set
     printenv
     uptime
@@ -25,7 +25,7 @@ Once you have shell access to a device (running some form of *nix), run through 
     lsmod - list loaded kernel modules
     lsblk - list block devices
     lsof (if installed)
-    hwinfo —short
+    hwinfo —short - probe for hardware
     last - shows recent user logins AND reboot/shutdown/crash
 ```
 
