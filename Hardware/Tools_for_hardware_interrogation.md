@@ -8,6 +8,8 @@
 
 ```dmidecode --type processor```
 
+WARN: man page for ```dmidecode``` notes "More often than not, information contained in the DMI tables is inaccurate, incomplete or simply wrong."
+
 Example output:
 ```
 taz07-kali ~ # dmidecode --type processor
