@@ -1,8 +1,8 @@
-#Docker
+# Docker
 
 It is starting to be quite a pain to run all the many things I want to install/try out, due to all the dependencies and whatnot, and I'd prefer some isolation between things and stop mucking up system libraries and blah blah blah $reasons.
 
-# Basic knowledge
+## Basic knowledge
 * Install Docker if it doesn't already exist
 * If it does exist, start the Docker engine, if not started already
   * service docker start
