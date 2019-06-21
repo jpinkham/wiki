@@ -1,6 +1,6 @@
 # wiki
 Rather than have a million bookmarks that link to useful sites, just keep all the random info I need infrequently in one spot.
-If anyone else finds this useful, even better :-D.
+If anyone else finds this useful, even better :-D. Ongoing effort to capture all the one line "what tool can do xyz?" and "what command line option is needed for feature abc?" Tracking what new stuff I learned where.
 
 
 * [Applications](Applications)
