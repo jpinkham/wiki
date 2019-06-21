@@ -1,3 +1,8 @@
+### Determine kernel version
+```
+uname -a
+```
+
 ### Determine the linux distro and version
 ```
 cat /etc/issue
@@ -6,6 +11,13 @@ cat /proc/version
 
 lsb_release -a
 ```
+Also:
+a] /etc/*-release file.
+
+d] hostnamectl command
+
+Source: https://www.cyberciti.biz/faq/find-linux-distribution-name-version-number/
+
 
 ### Display BIOS metadata -- no reboot needed! 
 ```dmidecode --type bios```
@@ -30,17 +42,15 @@ dpkg -L <package>
 canonical-livepatch config
 ```
 
+WARN: livepatch is an Ubuntu-specific thing IIRC that isn't a standard of any sort.
+ALSO: multiple reports i found online, and tested myself, that report significant performance degradation in applications installed with this method.
+
 
 #### Configure LivePatch check interval/frequency
 ```
 sudo canonical-livepatch config check-interval=<number of minutes>
 ```
 ---
-
-### Determine kernel version
-```
-uname -a
-```
 
 ### Show the total size of the current directory (and all its subdirs)
 ```
