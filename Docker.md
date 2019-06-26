@@ -16,7 +16,7 @@ Luckily more and more open source projects are including a Dockerfile -- w00t
 1) check the README, which usually has the needed commands
 2) Build the container using the provided Dockerfile
 EXPERT level: Modify the Dockerfile to strip to bare essentials, especially base image, before building
-3) 
+3) PROFIT...no really, finish building this list, jp
 
 
 ### Example: Nikto
@@ -32,35 +32,42 @@ docker run --rm sullo/nikto -h http://www.example.com
 docker run --rm -v $(pwd):/tmp nikto -h http://www.example.com -o /tmp/out.json
 ```
 
-
+---
 
 # Common commands
 
 ### List Docker CLI commands
+```
 docker
 docker container --help
+```
 
 ### Display Docker version and info
+```
 docker --version
 docker version
 docker info
+```
 
 ### Execute Docker image
+```
 docker run hello-world
+```
 
 ### List Docker images
+```
 docker image ls
+```
 
-### List Docker containers (running, all, all in quiet mode)
-docker container ls
-docker container ls --all
-docker container ls -aq
+### List Docker containers
+```
+docker container ls         # all running
+docker container ls --all   # all, regardless of state
+docker container ls -aq     # all, but quiet
+```
 
 Source: https://docs.docker.com/get-started/
 
-
-
-## How to list containers in Docker
 
 To show only running containers use the given command:
 
@@ -81,7 +88,9 @@ To show n last created containers (includes all states) use the given command:
 To display total file sizes use the given command:
 
 ```docker ps -s```
+
 Source: https://stackoverflow.com/questions/16840409/how-to-list-containers-in-docker
+
 
 ```
 docker build -t friendlyhello .  # Create image using this directory's Dockerfile
