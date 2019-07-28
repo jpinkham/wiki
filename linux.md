@@ -20,7 +20,7 @@ Source: https://www.cyberciti.biz/faq/find-linux-distribution-name-version-numbe
 
 
 ### Display BIOS metadata -- no reboot needed! 
-```dmidecode --type bios```
+```sudo dmidecode --type bios```
 
 
 ### Ubuntu (any Debian?) -- check for non-LTS OS upgrades
@@ -39,7 +39,7 @@ dpkg -L <package>
 
 #### Display current config settings
 ```
-canonical-livepatch config
+sudo canonical-livepatch config
 ```
 
 WARN: livepatch is an Ubuntu-specific thing IIRC that isn't a standard of any sort.
@@ -54,11 +54,11 @@ sudo canonical-livepatch config check-interval=<number of minutes>
 
 ### Show the total size of the current directory (and all its subdirs)
 ```
-du --total --summarize --human-readable
+sudo du --total --summarize --human-readable
 ```
 NOTE: This may not work in BSD/OSX. This is equivalent and should work everywhere
 ```
-du -c -s -h
+sudo du -c -s -h
 ```
 
 ### Determine locations of superblock backups
