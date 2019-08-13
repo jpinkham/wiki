@@ -1,6 +1,6 @@
 # Table of contents
 
-* [wiki](README.md)
+* [JPOrgwiki](README.md)
 * [GitHub](github.md)
 * [windows](windows/README.md)
   * [Keyboard shortcuts](windows/keyboard_shortcuts.md)
