@@ -47,15 +47,15 @@ Run `sudo software-properties-gtk` \(sw settings seems to be gone from config se
 
 * Ubuntu: upgrade to newest version via `sudo do-release-upgrade`
 * Ubuntu: post-upgrade, re-enable 3rd party sw sources
-  * Ex: file:/var/opt/amdgpu-pro-local 
+  * Ex: file:/var/opt/amdgpu-pro-local
 
-    [http://dl.google.com/linux/chrome/deb](http://dl.google.com/linux/chrome/deb) stable                                                                                                                      
+    [http://dl.google.com/linux/chrome/deb](http://dl.google.com/linux/chrome/deb) stable
 
-    [http://dell.archive.canonical.com/updates](http://dell.archive.canonical.com/updates) xenial-dell                                                                                                          
+    [http://dell.archive.canonical.com/updates](http://dell.archive.canonical.com/updates) xenial-dell
 
-    [http://dell.archive.canonical.com/updates](http://dell.archive.canonical.com/updates) xenial-dell-service                                                                                                   
+    [http://dell.archive.canonical.com/updates](http://dell.archive.canonical.com/updates) xenial-dell-service
 
-    [http://dell.archive.canonical.com/updates](http://dell.archive.canonical.com/updates) xenial-dell-whitehaven                                                                                               
+    [http://dell.archive.canonical.com/updates](http://dell.archive.canonical.com/updates) xenial-dell-whitehaven
 * Ubuntu: configure LivePatch \(requires UbuntuOne acct\) for autoupdates of most kernel patches w/o reboot reqd
 
 _\*_ RETHINK this. Livepatch can only be installed with snapd and snap doesn't seem to have much of a following online. AND it has proven \(and experienced by me as well\) performance issues for apps installed via snap vs same apps installed with apt.

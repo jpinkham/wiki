@@ -67,7 +67,7 @@
   Successfully installed GitPython-2.1.11 PyYAML-3.13 bandit-1.5.1 gitdb2-2.0.5 pbr-5.1.2 six-1.12.0 smmap2-2.0.5 stevedore-1.30.0
   ```
 
-* Installed pip 'pretty-json'  \(provides json.tool\)
+* Installed pip 'pretty-json' \(provides json.tool\)
 
   ```text
     Installing collected packages: Pygments, pygments-json, pretty-json
@@ -82,11 +82,13 @@
 
 ### 2/18/2019
 
-* Installed numlockx, so I can use the numlock setting in 
+* Installed numlockx, so I can use the numlock setting in
 
   ```text
-    ```Control Center --> Admin --> Login window --> Settings --> Activate numlock```
+    ```Control Center --> Admin --> Login window --> Settings --> Activate numlock
   ```
+
+  \`\`\`
 
 * Added more virtual desktops/workspaces, so I have 10 total
 * Custom keyboard settings: \(\(Control Center --&gt; Hardware --&gt; Keyboard\)

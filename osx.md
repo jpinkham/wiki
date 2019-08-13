@@ -6,11 +6,10 @@
 
 #### Show the total size of the current directory \(and all its subdirs\)
 
-`du -c -h -s`   
- -c = grand total for all files   
- -h = human-readable \(KB, MB, GB, etc\)   
- -s = summarize = display only a total   
-
+`du -c -h -s`  
+-c = grand total for all files  
+-h = human-readable \(KB, MB, GB, etc\)  
+-s = summarize = display only a total
 
 #### Mounting an NTFS drive as read-write
 
@@ -36,9 +35,9 @@ diskutil zeroDisk /dev/disk4
 
 #### Creating app-specific passwords when you have 2FA enabled
 
-Ex usage: accessing an iCloud calendar with Amazon Alexa   
- Log on to [https://appleid.apple.com/](https://appleid.apple.com/). Navigate to Security --&gt; App-specific Passwords --&gt; Generate   
- You may want to take a screenshot of the password that gets generated because you will never be able to see it again
+Ex usage: accessing an iCloud calendar with Amazon Alexa  
+Log on to [https://appleid.apple.com/](https://appleid.apple.com/). Navigate to Security --&gt; App-specific Passwords --&gt; Generate  
+You may want to take a screenshot of the password that gets generated because you will never be able to see it again
 
 #### Change a user's default shell
 
@@ -51,10 +50,9 @@ Source: [https://superuser.com/questions/379725/how-do-i-change-a-users-default-
 * Install packages: `brew install <package>`
 * Search for specific packages: `brew search [--desc] <search term or regex>`  
 
-
-  ```text
+```text
     Use ```--desc``` to search package description (and include in output), not just package title
-  ```
+```
 
 * Upgrade packages: `brew upgrade`
 * Upgrade one package: `brew upgrade <package>`

@@ -2,6 +2,6 @@
 
 Select lines, then:
 
-Linux/Windows: Ctrl + Shift + L   
- Mac: Cmd + Shift + L
+Linux/Windows: Ctrl + Shift + L  
+Mac: Cmd + Shift + L
 
