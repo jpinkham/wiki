@@ -1,7 +1,10 @@
-Once you have shell access to a device (running some form of *nix), run through these to quickly learn as much as possible
+# recon\_via\_commandline
+
+Once you have shell access to a device \(running some form of \*nix\), run through these to quickly learn as much as possible
 
 ## Commands to try:
-```
+
+```text
     whoami
     pwd
     ps auxwww -- to see all running processes and wide enough display to capture all flags of running commands
@@ -29,9 +32,9 @@ Once you have shell access to a device (running some form of *nix), run through 
     last - shows recent user logins AND reboot/shutdown/crash
 ```
 
-
 ## Directories of interest:
-```
+
+```text
     /
     /bin
     /sbin
@@ -42,15 +45,14 @@ Once you have shell access to a device (running some form of *nix), run through 
     /usr, /usr/bin, /usr/local
     /sys/bus, /sys/devices, /sys/module
     /opt
-
 ```
-
-
 
 ## Files of interest:
-```
+
+```text
     /proc/kmsg - looks to be boot up log of kernel modules [ likely same output as ‘dmesg']
     /proc/cmdline - looks to be options/arguments passed to kernel loader
     /proc/devices
     /proc/version - linux version and gcc compiler version
 ```
+

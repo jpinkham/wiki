@@ -1,11 +1,14 @@
-msfconsole
-==========
-##Step 1: Create a workspace for your current project/bounty/etc
-```workspace -a <name>```
+# msfconsole
 
-##Always check your workspace before you begin work/when loading msfconsole
+## Step 1: Create a workspace for your current project/bounty/etc
+
+`workspace -a <name>`
+
+## Always check your workspace before you begin work/when loading msfconsole
+
 ### workspace commands
-```
+
+```text
 Usage:
     workspace                  List workspaces
     workspace -v               List workspaces verbosely
@@ -16,3 +19,4 @@ Usage:
     workspace -r <old> <new>   Rename workspace
     workspace -h               Show this help information
 ```
+

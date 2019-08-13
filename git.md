@@ -1,27 +1,30 @@
-[ ] TODO: Merge resolution
+# git
+
+\[ \] TODO: Merge resolution
 
 ### Cloning a repo, in case I get a head injury and forget how to do this
-```git clone <ssh or HTTPS url> [local_name_to_use]```
 
+`git clone <ssh or HTTPS url> [local_name_to_use]`
 
 ### Looking at diffs while viewing logs
-```git log -U```
 
+`git log -U`
 
 ### Creating a new branch based off the current branch
-```git checkout -b <new branch name>```
 
+`git checkout -b <new branch name>`
 
 ### List of branches you've ever checked out in this repo
-```git branch```
 
+`git branch`
 
 ### Grepping files in the repo
-```git grep <grep options> [file path/pattern]```
 
+`git grep <grep options> [file path/pattern]`
 
 ### Checking out code from a specific pull request
-```
+
+```text
 1. Clone the repo
 2. Fetch the pull request and store in a custom branch
 git fetch origin pull/ + PR number + /head: + custom branch name
@@ -29,14 +32,17 @@ git fetch origin pull/ + PR number + /head: + custom branch name
 ```
 
 --
+
 ## Global git settings
 
 ### Show all global variables
-```git config --list```
 
+`git config --list`
 
 ### Set or change the fullname or email address used in your commits
-```
+
+```text
 git config --global user.name "Jane Doe"
-git config --global user.email janedoe@example.com```
+git config --global user.email janedoe@example.com
+```
 

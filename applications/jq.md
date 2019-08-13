@@ -1,11 +1,12 @@
+# jq
 
-
-```
+```text
 curl -q < url > | jq '.results[].name'
 ```
 
 JSON being parsed:
-```
+
+```text
 {
   "results": [
       {
@@ -22,5 +23,5 @@ JSON being parsed:
       }
   ]
 }
- ```
+```
 

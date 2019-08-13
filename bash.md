@@ -1,9 +1,10 @@
-# All things Bash (Bourne Again SHell)
+# All things Bash \(Bourne Again SHell\)
 
 ## Customizing prompt
 
 ### Add git info to prompt
-```
+
+```text
 # Git command completion
 source $HOME/git-completion.bash
 
@@ -23,15 +24,17 @@ if [ "$PS1" ]; then
     fi
   fi
 fi
-
 ```
-
 
 ## Bash history
 
 ### Add date/time stamp to history entries
-Add to ~/.bash_profile or ~/.bashrc
-```
+
+Add to ~/.bash\_profile or ~/.bashrc
+
+```text
 export HISTTIMEFORMAT="%Y-%m-%d %T "
 ```
-Reference: https://stackoverflow.com/questions/38526588/linux-command-history-with-date-and-time
+
+Reference: [https://stackoverflow.com/questions/38526588/linux-command-history-with-date-and-time](https://stackoverflow.com/questions/38526588/linux-command-history-with-date-and-time)
+
