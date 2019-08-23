@@ -31,6 +31,17 @@ git fetch origin pull/ + PR number + /head: + custom branch name
 3. Checkout the custom branch
 ```
 
+### Determine what files changed, excluding deleted
+
+Reasoning: for doing secure code reviews on a diff with thousands of files. Goal was to exclude all changes but additions and modifications, as well as filter result through grep in order to ignore different file extensions
+
+`git diff --ignore-all-space --name-status --diff-filter=AM <branch/tag to compare> | grep -vE 'test|properties|config|gradle|\.xml|\.txt|Impl|nterfaces?'  >  <path to file to store output>`
+
+`--name-status` prepends a single letter to each changed file, denoting if new (A), modified (M), Deleted (D), etc`
+`
+
+Reference: https://git-scm.com/docs/git-diff#Documentation/git-diff.txt---diff-filterACDMRTUXB82308203
+
 --
 
 ## Global git settings
