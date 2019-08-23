@@ -15,7 +15,7 @@ Rather than have a million bookmarks that link to useful sites, just keep all th
   * [SSH](ssh.md)
 * Hardware
   * [Tools for interrogating hardware](hardware/tools_for_hardware_interrogation.md)
-* [Javascript](javascript.md)
+* [Javascript](javascript/)
 * [Linux random bits](linux.md)
 * Miscellaneous
   * [Cellphones](cellphones.md)
