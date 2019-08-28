@@ -12,3 +12,20 @@ Example: grab one key from each record in JSON string \("url" field\) `jq .url`
 Pipe output to `python -m jsontool`  
 Pipe output to `jq` \(pretty colors, not just formatting of a single giant string\)
 
+
+## SQLite databases
+
+Commands to poke around a db:
+```
+sqlite3 <path to db file>
+
+.help - list of commands
+
+.tables - list all tables in the db
+
+.dump <table> - show the "CREATE TABLE" commands used to build (incl schema) 
+plus full contents of table
+
+
+.quit - exit
+```
