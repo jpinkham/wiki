@@ -7,6 +7,7 @@ Rather than have a million bookmarks that link to useful sites, just keep all th
   * [GitHub](github.md)
   * [LastPass](applications/lastpass.md)
   * [Linux apps](applications/linux_apps.md)
+* [Chromebook](ChromeOS.md)
 * Command-line tools
   * [git tricks](git.md)
   * [Mac OS X - GUI and cmd-line](osx.md)
