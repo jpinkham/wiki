@@ -28,7 +28,8 @@ Provides a Debian-based distro, using standard 'apt' tools
 
 
 ### Change Chrome download folder to be in your Google Drive
-?How did I do that again?
+Settings --> Advanced --> Downloads --> Location
+
 
 ### URLs
 ```
