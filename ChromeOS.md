@@ -1,6 +1,15 @@
 # Tips for ChromeOS / Chromebook
 
 
+## Keyboard shortcuts
+
+* Screenshots
+
+```Ctrl + F5/Expose``` == Entire screen
+
+```Ctrl + Shift + F5/Expose``` == Selected area
+
+
 ### Create folders in launcher
 Drag one app onto another to create a new folder
 
@@ -10,7 +19,6 @@ SSH, scp, sftp
 
 ### SessionBox
 Closest thing Chrome has to Firefox Containers
-
 
 
 ### Enable Linux
