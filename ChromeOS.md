@@ -1,5 +1,11 @@
 # Tips for ChromeOS / Chromebook
 
+## Advanced config settings
+
+### Change build/channel
+To switch to "beta" or "developer" channels to get new features early, but sacrificing some stability
+chrome://settings/help
+
 
 ## Keyboard shortcuts
 
