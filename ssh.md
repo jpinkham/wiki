@@ -2,7 +2,7 @@
 
 ## sshd server
 
-### Set alternate port to script kiddies will leave you alone
+### Set alternate port so the lazier script kiddies will pass you by
 
 `Port 12345`
 
