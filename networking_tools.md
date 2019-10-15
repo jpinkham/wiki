@@ -17,7 +17,9 @@ To point to a file other than .netrc
 
 Credential file format:
 ```
-machine <host> login <username> password <password>
+machine <host>
+login <username>
+password <password>
 ```
 
 ## Submitting sensitive form data
@@ -116,7 +118,13 @@ ufw allow <port # | service name>
 ```text
 openssl s_client -showcerts -connect <hostname>:443
 sslscan <hostname>
+
 testssl.sh https://<hostname>/[/optional/path]
+My most common parameters:
+testssl.sh --protocols --server-defaults --server-preference
+
+
+
 nmap --script "ssl*" -p 443 <hostname>
 ```
 
