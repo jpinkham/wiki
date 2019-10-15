@@ -117,12 +117,16 @@ ufw allow <port # | service name>
 
 ```text
 openssl s_client -showcerts -connect <hostname>:443
+
 sslscan <hostname>
 
 testssl.sh https://<hostname>/[/optional/path]
 My most common parameters:
-testssl.sh --protocols --server-defaults --server-preference
-
+testssl.sh --quiet --protocols --server-preference
+(if I just need protocols and cipher suite)
+OR
+testssl.sh --quiet --server-defaults
+(for cert serial number, CN, SAN, Issuer, etc)
 
 
 nmap --script "ssl*" -p 443 <hostname>
