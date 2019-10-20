@@ -6,13 +6,25 @@ Switch to a workspace: ```workspaces select <name>```
 
 List all: ```workspaces list```
 
+## Stored information from database
+
+```
+Usage: show <companies|contacts|credentials|domains|hosts|leaks|locations|netblocks|ports|profiles|pushpins|repositories|vulnerabilities>
+
+```
+
 
 ## Modules
 WARN: No modules are installed by default
 
 Show available modules from marketplace: ```marketplace info all``` or ```marketplace info <module name>```
 
-Search for modules: ```marketplace search <search term>```
+Search marketplace for modules: ```marketplace search <search term>```
+
+Install module from marketplace: ```marketplace install <path>``` where <path> is provided in marketplace info output
+  
+Load/Use module: ```modules load <path>```
+
 
 
 ## Options / Config settings
