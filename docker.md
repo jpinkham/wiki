@@ -116,3 +116,10 @@ docker run username/repository:tag                   # Run image from a registry
 
 Source: [https://docs.docker.com/get-started/part2/](https://docs.docker.com/get-started/part2/)
 
+
+
+## Finding pre-built Docker containers
+
+```
+docker search [--filter is-official=true] <search term>
+```
