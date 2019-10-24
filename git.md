@@ -30,6 +30,9 @@
 git fetch origin pull/ + PR number + /head: + custom branch name
 3. Checkout the custom branch
 ```
+Reference: https://help.github.com/en/articles/checking-out-pull-requests-locally 
+
+
 
 ### Determine what files changed, excluding deleted
 
