@@ -101,7 +101,10 @@ netstat -at -f inet
 netstat -ant -f inet  
 
 # Shows the process listening on the port
-sudo netstat -antp
+sudo netstat -antp   #Linux
+[sudo] lsof -iTCP -sTCP:LISTEN   #OSX
+
+
 ```
 
 ## ufw - Uncomplicated FireWall
