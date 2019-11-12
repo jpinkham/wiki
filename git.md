@@ -6,9 +6,13 @@
 
 `git clone <ssh or HTTPS url> [local_name_to_use]`
 
-### Looking at diffs while viewing logs
+### Looking at diffs of actual changes, while viewing logs
 
-`git log -U`
+```
+git log -U
+git log --color --patch --no-merges --ignore-all-space --unified=1
+```
+Colored, include associated diff/patch, ignore whitespace changes and all merges, provide just 1 line of context near the changes
 
 ### Creating a new branch based off the current branch
 
