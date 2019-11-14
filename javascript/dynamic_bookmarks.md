@@ -23,6 +23,9 @@ How to use:
 
 ```javascript: var ip_address=prompt("IP address to search?");  window.location.href="https://robtex.com/ip-lookup/" + ip_address;```
 
+- VirusTotal: JSON response
+```javascript: var search_term=prompt("Site/domain to search?");  window.location.href="https://www.virustotal.com/ui/search?query=" + search_term;```
+
 
 ## Apps
 
