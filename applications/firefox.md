@@ -1,6 +1,6 @@
-# firefox
+## Extensions 
 
-## Extensions aka Plugins
+Not to be confused with plugins. Those are video/audio codecs, flash support, etc.
 
 | Extension Name | URL | Description | Why |
 | :--- | :--- | :--- | :--- |
@@ -20,6 +20,46 @@
 | NoScript Security Suite | [https://addons.mozilla.org/en-US/firefox/addon/noscript/](https://addons.mozilla.org/en-US/firefox/addon/noscript/) | Protects you from multiple JS attack vectors like XSS and Clickjacking and many others | Security |
 | Privacy Badger | [https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) | Created by EFF to block page and link trackers; learns as you browse | Privacy |
 | Link Gopher | [https://addons.mozilla.org/en-US/firefox/addon/link-gopher/](https://addons.mozilla.org/en-US/firefox/addon/link-gopher/) | Extracts all links on a page into a new HTML file you can save | Tool |
+
+---
+
+### DEBUG extensions!
+
+```about:addons```
+
+Click gear/cog icon and choose "Debug Add-ons"
+
+Shortcut:
+```text
+about:debugging#/runtime/this-firefox
+```
+
+
+
+* Find the extension to troubleshoot/debug and click "Inspect"
+
+  * This will open a special Developer Tools window, to the Network tab, so you can watch all interactions!
+  * Example: ```about:devtools-toolbox?type=extension&id=support%40lastpass.com``` -- LastPass
+  * Example: ```about:devtools-toolbox?type=extension&id=uBlock0%40raymondhill.net``` -- uBlockOrigin
+
+  * All the usual Dev Tools functions are available
+    * Use "Inspector" tab to see the source of whatever javascript is loaded by the extension
+    * Use "Storage" tab to checkout the cookies, local storage, etc 
+    * Use "Console" for troubleshooting (also available within Network view if you have Split Console enabled)
+    
+* Optional: Click the "Manifest URL" link to show the [manifest.json file](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json), which contains associated metadata (such as permissions used, associated keyboard shortcuts, etc)
+
+
+Reference: https://developer.mozilla.org/en-US/docs/Tools/about:debugging
+
+
+### See / Set all extension keyboard shortcuts
+
+```about:addons```
+
+Click gear/cog icon and choose "Manage Extension Shortcuts"
+
+---
 
 ## Config settings to enable/customize
 
@@ -45,11 +85,15 @@ Check these resources to see examples of domains that are impossible to identify
 * [Threat Announcement: Phishing Sites Detected on Emoji Domains](https://info.phishlabs.com/blog/threat-announcement-phishing-sites-detected-on-emoji-domains)
 * [Mozilla KB: network.IDN\_show\_punycode](http://kb.mozillazine.org/Network.IDN_show_punycode)
 
+---
+
 ### Enable U2F hardware key authentication
 
 Needed for a Yubikey to work
 
 `security.webauth.u2f = true`
+
+---
 
 ### Disable these "features" in Firefox that are invading your privacy
 
@@ -75,6 +119,7 @@ privacy.resistFingerprinting
 toolkit.telemetry.enabled
 toolkit.telemetry.shutdownPingSender.enabled
 ```
+---
 
 ### Config via UI \(Preferences\)
 
@@ -116,3 +161,4 @@ Resources:
 * [https://www.sans.org/webcasts/web-hacking-burp-suite-deep-dive-burp-suites-functionality-pen-testers-108860](https://www.sans.org/webcasts/web-hacking-burp-suite-deep-dive-burp-suites-functionality-pen-testers-108860)
 * [https://aaronhorler.com/articles/firefox-privacy.html](https://aaronhorler.com/articles/firefox-privacy.html)
 
+---
