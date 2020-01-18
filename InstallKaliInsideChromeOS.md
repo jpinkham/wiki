@@ -4,3 +4,9 @@
 ```
 lxc launch images:kali <your custom name>
 ```
+
+
+
+
+References:
+https://blog.simos.info/using-the-lxd-kali-container-image/
