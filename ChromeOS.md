@@ -1,12 +1,5 @@
 # Tips for ChromeOS / Chromebook
 
-## Advanced config settings
-
-### Change build/channel
-To switch to "beta" or "developer" channels to get new features early, but sacrificing some stability
-chrome://settings/help
-
-
 ## Keyboard shortcuts
 
 * Screenshots
@@ -20,29 +13,33 @@ chrome://settings/help
 ```
 Use keys on top row:
 F1 = search + "<--"
-F2 = search + "-->"
-F3 = search + reload
-F4 = search + maximize
-F5 = search + exposeee
-F6 = search + lower brightness
-F7 = search + increase brightness
-F8 = search + mute
-F9 = search + volume down
+..
 F10 = search + volume up
 Delete = search + backspace
 ```
-
-
-### Create folders in launcher
+## Create folders in launcher
 Drag one app onto another to create a new folder
 
 
-### Install "Secure Shell App" extension
+## Install "Secure Shell App" extension
 SSH, scp, sftp
 
-### SessionBox
-Closest thing Chrome has to Firefox Containers
 
+## Using LXC commands to interact with containers
+1. Start crosh
+2. run ```vmc start termina```
+
+### Container actions
+* ```lxc list``` - display installed containers and their current state
+* ```lxc image list``` - container image, size, description, etc
+
+
+## Advanced config settings
+
+### Change build/channel
+To switch to "beta" or "developer" channels to get new features early, but sacrificing some stability
+
+```chrome://settings/help```
 
 ### Enable Linux
 Settings --> Linux --> Enable
@@ -54,7 +51,7 @@ Provides a Debian-based distro, using standard 'apt' tools
 Settings --> Advanced --> Downloads --> Location
 
 
-### URLs
+### URLs for hidden/advanced config options
 ```
 chrome://chrom-urls - full list of supported urls
 
