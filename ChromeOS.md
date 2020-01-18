@@ -17,14 +17,15 @@ F1 = search + "<--"
 F10 = search + volume up
 Delete = search + backspace
 ```
+---
 ## Create folders in launcher
 Drag one app onto another to create a new folder
 
-
+---
 ## Install "Secure Shell App" extension
 SSH, scp, sftp
 
-
+---
 ## Using LXC commands to interact with containers
 1. Start crosh
 2. run ```vmc start termina```
@@ -33,7 +34,7 @@ SSH, scp, sftp
 * ```lxc list``` - display installed containers and their current state
 * ```lxc image list``` - container image, size, description, etc
 
-
+---
 ## Advanced config settings
 
 ### Change build/channel
