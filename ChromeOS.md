@@ -15,6 +15,23 @@ chrome://settings/help
 
 ```Ctrl + Shift + F5/Expose``` == Selected area
 
+* Emulate keys not on keyboard
+
+```
+Use keys on top row:
+F1 = search + "<--"
+F2 = search + "-->"
+F3 = search + reload
+F4 = search + maximize
+F5 = search + exposeee
+F6 = search + lower brightness
+F7 = search + increase brightness
+F8 = search + mute
+F9 = search + volume down
+F10 = search + volume up
+Delete = search + backspace
+```
+
 
 ### Create folders in launcher
 Drag one app onto another to create a new folder
@@ -80,14 +97,6 @@ chrome://omnibox/ - search box on steroids
 chrome://power/ --- Battery usage graph!
 
 chrome://predictors/ - list of predictions that Chrome will offer as you type, based on what it's learned from your browsing history
-
-
-
-
-
-
-
-
 
 ```
 
