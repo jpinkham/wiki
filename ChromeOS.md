@@ -1,6 +1,22 @@
 # Tips for ChromeOS / Chromebook
 
+## Chrome Applications
+* [Clipboard Manager](https://chrome.google.com/webstore/detail/clipboard-manager/hlmagkbphobghocaimgijjjpmionjcnj/)
+* [txt.app Text editor](https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg)
+* [SSH/scp](https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo?hl=en-US)
+* [BeagleTerm Serial terminal](https://chrome.google.com/webstore/detail/beagle-term/gkdofhllgfohlddimiiildbgoggdpoea) for working with embedded devices
+* [Chrome ADB Client (Android Debug Bridge)](https://chrome.google.com/webstore/detail/chromeadb/fhdoijgfljahinnpbolfdimpcfoicmnm) for developer/debug stuff with Android devices
+* [Insomnia REST client](https://chrome.google.com/webstore/detail/insomnia-rest-client/gmodihnfibbjdecbanmpmbmeffnmloel)
+
+
+## Google Chrome Labs at GitHub
+https://github.com/GoogleChromeLabs
+
+
 ## Keyboard shortcuts
+* Launch anything pinned to the dock
+```Alt + [1-9]```, where 1-9 is the position of an app within the dock, and position 1 is far left
+Ex: Alt + 2 starts/opens the 2nd app from the left in the dock
 
 * Screenshots
 
@@ -20,10 +36,6 @@ Delete = search + backspace
 ---
 ## Create folders in launcher
 Drag one app onto another to create a new folder
-
----
-## Install "Secure Shell App" extension
-SSH, scp, sftp
 
 ---
 ## Using LXC commands to interact with containers
