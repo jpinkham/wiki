@@ -53,5 +53,13 @@ References:
 
 ## Services
 
+### Services tab
+DNSmasq.enabled == yup
+DNSmasq.Additional Dnsmasq Options = ```dhcp-option=6,192.168.1.14``` -- Supplies internal DNS Pi-hole server as default DNS for DHCP client
+
+References:
+* https://discourse.pi-hole.net/t/how-do-i-configure-my-devices-to-use-pi-hole-as-their-dns-server/245
+
+
 ### SSHd
 Once enabled, make sure to use user ```root``` when connecting via SSH. DO NOT use the admin username you created during initial configuration. You WILL use the same password.
