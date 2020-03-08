@@ -20,6 +20,8 @@ Not to be confused with plugins. Those are video/audio codecs, flash support, et
 | NoScript Security Suite | [https://addons.mozilla.org/en-US/firefox/addon/noscript/](https://addons.mozilla.org/en-US/firefox/addon/noscript/) | Protects you from multiple JS attack vectors like XSS and Clickjacking and many others | Security |
 | Privacy Badger | [https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) | Created by EFF to block page and link trackers; learns as you browse | Privacy |
 | Link Gopher | [https://addons.mozilla.org/en-US/firefox/addon/link-gopher/](https://addons.mozilla.org/en-US/firefox/addon/link-gopher/) | Extracts all links on a page into a new HTML file you can save | Tool |
+| Ad Blocker for YouTube | [https://addons.mozilla.org/en-US/firefox/addon/adblock-for-youtube/](https://addons.mozilla.org/en-US/firefox/addon/adblock-for-youtube/) | Removes ads in the page AND in videos | Browser speed |
+
 
 ---
 
