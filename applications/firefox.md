@@ -89,7 +89,7 @@ Check these resources to see examples of domains that are impossible to identify
 
 ### Enable U2F hardware key authentication
 
-Needed for a Yubikey to work
+NOTE: This is only needed in OLDER FIREFOX VERSIONS.  Newer versions have this enabled by default.  Double check your current value
 
 `security.webauth.u2f = true`
 
@@ -102,13 +102,13 @@ WARN: certain sites \(ex: ProtonMail\) may behave differently with privacy.resis
 ```text
 #! SET THESE TO FALSE, UNLESS SPECIFIED OTHERWISE
 app.normandy.enabled
-app.shield.optoutstudies.enabled
+app.shield.optoutstudies.enabled = true
 browser.library.activity-stream.enabled
 browser.newtabpage.activity-stream.feeds.telemetry
 browser.newtabpage.activity-stream.telemetry
 browser.ping-centre.telemetry
 browser.send_pings
-browser.urlbar.autocomplete.enabled
+browser.urlbar.autofill.enabled            NOTE: in older version of Firefox, this is named browser.urlbar.autocomplete.enabled
 datareporting.policy.dataSubmissionEnabled
 datareporting.healthreport.uploadEnabled 
 geo.enabled
@@ -116,7 +116,9 @@ media.peerconnection.enabled
 network.dns.disableIPv6 = true
 network.dns.disablePrefetch = true
 privacy.resistFingerprinting
+toolkit.telemetry.bhrPing.enabled
 toolkit.telemetry.enabled
+toolkit.telemetry.firstShutdownPing.enabled
 toolkit.telemetry.shutdownPingSender.enabled
 ```
 ---
