@@ -126,6 +126,9 @@ Reference: Mentioned in [https://www.silabs.com/community/interface/knowledge-ba
 
 ### Finder
 
+#### Show/Hide hidden files
+Shift + Cmd + .
+
 #### Permanent delete one or more files
 
 Option + Cmd + Delete
