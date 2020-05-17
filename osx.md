@@ -2,6 +2,12 @@
 
 ## Command line
 
+### Processes
+
+#### Disable Spotlight indexing because it steals all your damn CPU cycles
+`sudo mdutil -a -i off`
+
+
 ### Disk-related
 
 #### Show the total size of the current directory \(and all its subdirs\)
