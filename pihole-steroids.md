@@ -40,9 +40,9 @@ WEBPASSWORD=      #leave this empty if you don't care about password protection 
 
 ## Pihole commands
 
-```pihole -c``` == Chronometer: realtime stats
-```pihole -up``` == Update Pihole application
-```pihole -g``` == Force manual Galaxy db update (should be automatically scheduled to update weekly)
-```pihole -t``` == Realtime tail of pihole log, color-formatted version of /var/log/pihole.log
-```pihole status``` == Returns status of DNS service as well as ad-blocking feature
-```pihole restartdns``` == restart pihole-FTL and pihole services
+* ```pihole -c``` == Chronometer: realtime stats
+* ```pihole -up``` == Update Pihole application
+* ```pihole -g``` == Force manual Galaxy db update (should be automatically scheduled to update weekly)
+* ```pihole -t``` == Realtime tail of pihole log, color-formatted version of /var/log/pihole.log
+* ```pihole status``` == Returns status of DNS service as well as ad-blocking feature
+* ```pihole restartdns``` == restart pihole-FTL and pihole services
