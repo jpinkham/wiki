@@ -26,6 +26,10 @@ How to use:
 - VirusTotal: JSON response
 ```javascript: var search_term=prompt("Site/domain to search?");  window.location.href="https://www.virustotal.com/ui/search?query=" + search_term;```
 
+- Shodan: search domain or IP
+
+```javascript: var domain_name=prompt("search for?"); window.location.href="https://www.shodan.io/search?query=" + domain_name; ```
+
 
 ## Apps
 
