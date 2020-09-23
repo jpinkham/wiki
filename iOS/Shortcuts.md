@@ -1,0 +1,1 @@
+dynamic input to a website url
