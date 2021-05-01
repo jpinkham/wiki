@@ -2,8 +2,9 @@
 
 # Parse JSON with jq
 
-['jq' - GitHub pre-built binaries ](https://github.com/stedolan/jq/releases) --- [jq man page](https://github.com/stedolan/jq/blob/master/docs/content/manual/v1.6/manual.yml)  
-Pipe output to 'jq' to grab specific elements/nodes
+['jq' - GitHub pre-built binaries ](https://github.com/stedolan/jq/releases) ---  [Run jq in Docker](https://hub.docker.com/r/stedolan/jq)
+[jq man page](https://github.com/stedolan/jq/blob/master/docs/content/manual/v1.6/manual.yml)  
+accepts filename or STDIN ; use to grab specific elements/nodes, manipulate the data, find unique items, etc. AWESOME
 
 ## Example: grab one key from each record
 `jq .url`
@@ -34,6 +35,8 @@ sqlite3 <path to db file>
 .help - list of commands
 
 .tables - list all tables in the db
+
+.schema - table schema
 
 .dump <table> - show the "CREATE TABLE" commands used to build (incl schema) 
 plus full contents of table
