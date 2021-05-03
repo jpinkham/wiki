@@ -38,3 +38,27 @@ export HISTTIMEFORMAT="%Y-%m-%d %T "
 
 Reference: [https://stackoverflow.com/questions/38526588/linux-command-history-with-date-and-time](https://stackoverflow.com/questions/38526588/linux-command-history-with-date-and-time)
 
+
+## Miscellaneous
+
+### Fix a messed up terminal
+If you view a binary file, and the prompt and all chars you type turn to garbage, try the following:
+```text
+reset
+```
+or
+```text
+ctrl-j reset ctrl-j
+```
+
+
+### List all files, recursively, with full path
+
+```text
+find . '*'
+```
+
+### Use vim macro to replace "less" pager == syntax highlighting!
+```
+alias vless='vim -u /usr/share/vim/vim81/macros/less.vim'
+```
