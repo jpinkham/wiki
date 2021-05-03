@@ -78,3 +78,23 @@ Since I need to use SQLite to query the Pi-hole database, I may as well keep som
 .vfsname ?AUX?           Print the name of the VFS stack
 .width NUM1 NUM2 ...     Set column widths for "column" mode
 ```
+
+
+## SQLite databases
+
+Commands to poke around a db:
+```
+sqlite3 <path to db file>
+
+.help - list of commands
+
+.tables - list all tables in the db
+
+.schema - table schema
+
+.dump <table> - show the "CREATE TABLE" commands used to build (incl schema) 
+plus full contents of table
+
+
+.quit - exit
+```
