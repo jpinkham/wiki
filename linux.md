@@ -2,93 +2,87 @@
 
 ## Determine kernel version
 
-```text
+```shell
 uname -a
 ```
 
 ## Determine the linux distro and version
 
-```text
+```shell
 cat /etc/issue
 cat /etc/os-release
+cat /etc/lsb-release
 cat /proc/version
 
 lsb_release -a
+hostnamectl
 ```
-
-Also: a\] /etc/\*-release file.
-
-d\] hostnamectl command
 
 Source: [https://www.cyberciti.biz/faq/find-linux-distribution-name-version-number/](https://www.cyberciti.biz/faq/find-linux-distribution-name-version-number/)
 
-## Display BIOS metadata -- no reboot needed!
+## Display BIOS metadata -- no reboot needed
 
-`sudo dmidecode --type bios`
+```shell
+sudo dmidecode --type bios
+```
 
 ## Ubuntu \(any Debian?\) -- check for non-LTS OS upgrades
 
-`sudo vi /etc/update-manager/release-upgrades` Make sure the "Prompt" value is set to "normal" and not "lts"
+```shell
+sudo vi /etc/update-manager/release-upgrades
+```
+Make sure the "Prompt" value is set to "normal" and not "lts"
 
 ## Determine files within/installed by a package
 
-```text
+```shell
 apt-file list <package>   #NOTE: This works on any pkg, not just installed ones
 dpkg -L <package>
 ```
 
-## LivePatch
-
-### Display current config settings
-
-```text
-sudo canonical-livepatch config
-```
-
-WARN: livepatch is an Ubuntu-specific thing IIRC that isn't a standard of any sort. ALSO: multiple reports i found online, and tested myself, that report significant performance degradation in applications installed with this method.
-
-### Configure LivePatch check interval/frequency
-
-```text
-sudo canonical-livepatch config check-interval=<number of minutes>
-```
-
 ## Show the total size of the current directory \(and all its subdirs\)
 
-```text
+```shell
+Linux:
 sudo du --total --summarize --human-readable
 ```
-
-NOTE: This may not work in BSD/OSX. This is equivalent and should work everywhere
-
-```text
+```shell
+BSD / MacOS
 sudo du -c -s -h
 ```
 
 ## Determine locations of superblock backups
 
-`sudo mke2fs -n /dev/sda1`
+```shell
+sudo mke2fs -n /dev/sda1
+```
+Needed to resolve "bad magic number in super-block" error
+
 
 Reference: [https://linuxroutes.com/resolve-bad-magic-number-in-super-block-in-error/](https://linuxroutes.com/resolve-bad-magic-number-in-super-block-in-error/)
 
-Needed to resolve "bad magic number in super-block" error
 
 ## Mount a raid 1 \(mirror\) drive
 
-```text
+```shell
 sudo mdadm --assemble --run /dev/md0 /dev/<partition to be mounted>
-Then mount /dev/md0
+sudo mount /dev/md0
 ```
+I needed this when I lost one of my mirrored drives and wanted to make a backup of the one that still worked
 
 Reference: [https://serverfault.com/questions/383362/mount-unknown-filesystem-type-linux-raid-member](https://serverfault.com/questions/383362/mount-unknown-filesystem-type-linux-raid-member)
 
-## Show only hardware local mounted drives
+## Show only local, hardware, mounted drives
 
-`mount | grep -e '^\/dev'` This will limit the output to lines that start with "/dev", to cut down on noise from tmpfs, sysfs, proc, snaps, etc
+```shell
+mount | grep -e '^\/dev'
+```
+This will limit the output to lines that start with "/dev", to cut down on noise from tmpfs, sysfs, proc, snaps, etc
 
 ## Change a user's default shell
 
-`sudo chsh -s /path/to/shell username`
+```shell
+sudo chsh -s /path/to/shell username
+```
 
 Source: [https://superuser.com/questions/379725/how-do-i-change-a-users-default-shell-in-osx](https://superuser.com/questions/379725/how-do-i-change-a-users-default-shell-in-osx)
-
