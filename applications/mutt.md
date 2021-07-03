@@ -1,5 +1,8 @@
 # Mutt tips
 
+## My .muttrc
+https://github.com/jpinkham/dotfiles/blob/master/muttrc
+
 ## sending JUST attachments, from the command line/scripts
 ```
 echo | mutt -s $subject -a $file_to_attach user@somewhere.com
