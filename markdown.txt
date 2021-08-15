@@ -46,6 +46,14 @@ Strong emphasis, aka bold, with asterisks or underscores.
 Combined emphasis with asterisks and underscores.
 
 Strikethrough uses two tildes. Scratch this.
+
+
+Collapsed sections
+<details>
+    <summary>Click to expand/collapse</summary>
+stuff to collapse
+</details>
+
 Lists
 
 (In this example, leading and trailing spaces are shown with with dots: ⋅)
