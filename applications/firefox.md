@@ -95,6 +95,10 @@ NOTE: This is only needed in OLDER FIREFOX VERSIONS.  Newer versions have this e
 
 `security.webauth.u2f = true`
 
+
+### Fix warnings about refusing to do automatic redirect
+
+    accessibility.blockautorefresh = false
 ---
 
 ### Disable these "features" in Firefox that are invading your privacy
