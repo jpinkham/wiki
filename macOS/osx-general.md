@@ -133,6 +133,11 @@ Reference: Mentioned in [https://www.silabs.com/community/interface/knowledge-ba
 
 “Use your macOS terminal shell to do awesome things”. [https://github.com/herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line)
 
+### dtruss - strace-ish tool
+If you need to snoop on the activities of a command line tool, run ```dtruss <app> <app arguments>```
+
+Other tools are available from the DTrace package: execsnoop, iosnoop, iotop, opensnoop, rwsnoop, etc
+
 ## OS X UI
 
 ### Finder
