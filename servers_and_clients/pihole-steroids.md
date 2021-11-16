@@ -46,3 +46,50 @@ WEBPASSWORD=      #leave this empty if you don't care about password protection 
 * ```pihole -t``` == Realtime tail of pihole log, color-formatted version of /var/log/pihole.log
 * ```pihole status``` == Returns status of DNS service as well as ad-blocking feature
 * ```pihole restartdns``` == restart pihole-FTL and pihole services
+
+
+# Query database
+Reference:
+* https://docs.pi-hole.net/database/ftl/
+
+
+## Queries table
+### Schema
+
+|Field |	Type |	Allow NULLs |	Description |
+|------|-------|--------------|-------------|
+|id 	|integer |	No |	autoincrement ID for the table, only used by SQLite3|
+|timestamp |	integer |	No |	Unix timestamp when this query arrived at FTLDNS (used as index)|
+|type 	| integer |	No |	Type of this query (Ex: A, CNAME, MX)|
+|status |	integer |	No |	How this query was handled by FTLDNS (see Supported status types below)|
+|domain |	text |	No |	Requested domain|
+|client |	text |	No |	Requesting client (IP address)|
+|forward |	text |	Yes |	DNS host that query was forwarded to |
+|additional_info |	blob |	Yes |	Data-dependent content, not often used|
+
+### Status values
+
+
+|ID| 	Status| Block/Allow |		Details|
+|--:|--------|------------|------------|
+|0 |Unknown | 	❔ 	|Unknown status (not yet known)|
+|1 |	Blocked |	❌ 	|Domain contained in gravity database|
+|2 |	Allowed |	✅ 	|Forwarded|
+|3 |	Allowed |	✅ 	|Known, replied to from cache|
+|4 |	Blocked |	❌ 	|Domain matched by a regex blacklist filter|
+|5 |	Blocked |	❌ 	|Domain contained in exact blacklist|
+|6 |	Blocked |	❌ 	|By upstream server (known blocking page IP address)|
+|7 |	Blocked |	❌ 	|By upstream server (0.0.0.0 or ::)|
+|8 |	Blocked |	❌ 	|By upstream server (NXDOMAIN with RA bit unset)|
+|9 |	Blocked |	❌ 	|Domain contained in gravity database - Blocked during deep CNAME inspection|
+|10 |	Blocked |	❌ 	|Domain matched by a regex blacklist filter - Blocked during deep CNAME inspection|
+|11 |	Blocked |	❌ 	|Domain contained in exact blacklist - Blocked during deep CNAME inspection|
+|12 |	Allowed |	✅ 	|**Retried query**|
+|13 |	Allowed |	✅ 	|Retried but ignored query (typically related to  DNSSEC validation)|
+|14 |	Allowed |	✅ 	|**Already forwarded, not forwarding again**. Request was sent but hasn't received an answer|
+
+### Example queries
+
+* ```SELECT datetime(timestamp),domain,client FROM queries WHERE status IN( 12, 14) ORDER BY timestamp DESC LIMIT 10```
+* ```SELECT COUNT(*) FROM queries WHERE status IN( 12, 14) AND timestamp > strftime('%s','2021-11-01')
+AND timestamp < strftime('%s','2021-11-06');```
