@@ -91,5 +91,4 @@ Reference:
 ### Example queries
 
 * ```SELECT datetime(timestamp),domain,client FROM queries WHERE status IN( 12, 14) ORDER BY timestamp DESC LIMIT 10```
-* ```SELECT COUNT(*) FROM queries WHERE status IN( 12, 14) AND timestamp > strftime('%s','2021-11-01')
-AND timestamp < strftime('%s','2021-11-06');```
+* ```SELECT COUNT(*) FROM queries WHERE status IN( 12, 14) AND timestamp > strftime('%s','2021-11-01') AND timestamp < strftime('%s','2021-11-06');```
