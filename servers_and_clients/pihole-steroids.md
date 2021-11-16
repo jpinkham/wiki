@@ -67,6 +67,26 @@ Reference:
 |forward |	text |	Yes |	DNS host that query was forwarded to |
 |additional_info |	blob |	Yes |	Data-dependent content, not often used|
 
+### Query type values
+|ID |	Query type |
+|---|------------|
+|1 	|A|
+|2 	|AAAA|
+|3 	|ANY|
+|4 	|SRV|
+|5 	|SOA|
+|6 	|PTR|
+|7 	|TXT|
+|8 	|NAPTR|
+|9 	|MX|
+|10 	|DS|
+|11 	|RRSIG|
+|12 	|DNSKEY|
+|13 	|NS|
+|14 	|OTHER (any query type not covered elsewhere)|
+|15 	|SVCB|
+|16 	|HTTPS|
+
 ### Status values
 
 
