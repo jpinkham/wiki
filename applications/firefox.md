@@ -21,6 +21,7 @@ Not to be confused with plugins. Those are video/audio codecs, flash support, et
 | Privacy Badger | [https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/) | Created by EFF to block page and link trackers; learns as you browse | Privacy |
 | Link Gopher | [https://addons.mozilla.org/en-US/firefox/addon/link-gopher/](https://addons.mozilla.org/en-US/firefox/addon/link-gopher/) | Extracts all links on a page into a new HTML file you can save | Tool |
 | Ad Blocker for YouTube | [https://addons.mozilla.org/en-US/firefox/addon/adblock-for-youtube/](https://addons.mozilla.org/en-US/firefox/addon/adblock-for-youtube/) | Removes ads in the page AND in videos | Browser speed |
+| Library Extension | [https://addons.mozilla.org/en-US/firefox/addon/libraryextension/](https://addons.mozilla.org/en-US/firefox/addon/libraryextension/) | Looking at book details on Amazon, Goodreads, AbeBooks, etc will show you if book is available at 1+ local libraries as well as Archive.org.  Can search Overdrive, Axis360, and regular library catalog & overlays this info on whatever book page you are viewing | Tool |
 
 
 ---
