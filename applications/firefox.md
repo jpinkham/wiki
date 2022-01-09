@@ -72,6 +72,9 @@ Resource: [http://kb.mozillazine.org/About:config\_entries](http://kb.mozillazin
 ```text
 about:support
 ```
+This page will show you related env vars, file locations (like your profile!), add-ons, crash reports, experimental features enable/disable list, and more
+
+
 
 Reference: [https://www.ghacks.net/2011/09/18/display-all-modified-firefox-preferences/](https://www.ghacks.net/2011/09/18/display-all-modified-firefox-preferences/)
 
