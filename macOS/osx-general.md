@@ -56,6 +56,11 @@ You may want to take a screenshot of the password that gets generated because yo
 
 Source: [https://superuser.com/questions/379725/how-do-i-change-a-users-default-shell-in-osx](https://superuser.com/questions/379725/how-do-i-change-a-users-default-shell-in-osx)
 
+#### Add user to a group
+
+`sudo dscl . append /Groups/wheel GroupMembership $USER`
+will add current user to "wheel" group
+
 ### Homebrew - installer for all the good stuff
 
 * Install packages: `brew install <package>`
